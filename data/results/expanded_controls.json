@@ -1,0 +1,599 @@
+{
+  "format_control": {
+    "n": 35,
+    "separated": 35,
+    "pairs": [
+      {
+        "compute": "What is 23 times 17?",
+        "retrieve": "What is the capital of France?",
+        "proj_c": 16.066682815551758,
+        "proj_r": 1.576134204864502,
+        "sep": true
+      },
+      {
+        "compute": "What is 48 plus 76?",
+        "retrieve": "What is the color of the sky?",
+        "proj_c": 16.861249923706055,
+        "proj_r": 4.519173622131348,
+        "sep": true
+      },
+      {
+        "compute": "What is 99 minus 37?",
+        "retrieve": "What is the symbol for gold?",
+        "proj_c": 18.687763214111328,
+        "proj_r": 3.0316596031188965,
+        "sep": true
+      },
+      {
+        "compute": "What is 144 divided by 12?",
+        "retrieve": "What is the formula for water?",
+        "proj_c": 15.582820892333984,
+        "proj_r": 6.222952842712402,
+        "sep": true
+      },
+      {
+        "compute": "What is 256 plus 389?",
+        "retrieve": "What is the largest ocean?",
+        "proj_c": 17.345748901367188,
+        "proj_r": 2.5994668006896973,
+        "sep": true
+      },
+      {
+        "compute": "What is 15 times 17?",
+        "retrieve": "What is the currency of Japan?",
+        "proj_c": 16.305959701538086,
+        "proj_r": 4.539052486419678,
+        "sep": true
+      },
+      {
+        "compute": "What is 999 minus 572?",
+        "retrieve": "What is the boiling point of water?",
+        "proj_c": 20.020751953125,
+        "proj_r": 5.963438510894775,
+        "sep": true
+      },
+      {
+        "compute": "What is 67 plus 88?",
+        "retrieve": "What is the tallest mountain?",
+        "proj_c": 16.619556427001953,
+        "proj_r": 2.5178775787353516,
+        "sep": true
+      },
+      {
+        "compute": "What is 34 times 9?",
+        "retrieve": "What is the capital of Germany?",
+        "proj_c": 15.33382511138916,
+        "proj_r": 2.6380105018615723,
+        "sep": true
+      },
+      {
+        "compute": "What is 500 minus 213?",
+        "retrieve": "What is the chemical symbol for iron?",
+        "proj_c": 18.693201065063477,
+        "proj_r": 2.4407918453216553,
+        "sep": true
+      },
+      {
+        "compute": "What is 81 divided by 9?",
+        "retrieve": "What is the largest planet?",
+        "proj_c": 13.62328052520752,
+        "proj_r": 3.6426711082458496,
+        "sep": true
+      },
+      {
+        "compute": "What is 127 plus 348?",
+        "retrieve": "What is the currency of the UK?",
+        "proj_c": 17.940387725830078,
+        "proj_r": 4.942407608032227,
+        "sep": true
+      },
+      {
+        "compute": "What is 56 times 14?",
+        "retrieve": "What is the speed of sound?",
+        "proj_c": 16.742586135864258,
+        "proj_r": 5.1494646072387695,
+        "sep": true
+      },
+      {
+        "compute": "What is 1000 minus 637?",
+        "retrieve": "What is the national animal of India?",
+        "proj_c": 19.212919235229492,
+        "proj_r": 2.981640338897705,
+        "sep": true
+      },
+      {
+        "compute": "What is 19 times 21?",
+        "retrieve": "What is the capital of Australia?",
+        "proj_c": 15.699054718017578,
+        "proj_r": 2.8214237689971924,
+        "sep": true
+      },
+      {
+        "compute": "What is 432 plus 567?",
+        "retrieve": "What is the longest river?",
+        "proj_c": 17.49448013305664,
+        "proj_r": 1.7355685234069824,
+        "sep": true
+      },
+      {
+        "compute": "What is 88 divided by 4?",
+        "retrieve": "What is the symbol for silver?",
+        "proj_c": 15.319172859191895,
+        "proj_r": 2.946108102798462,
+        "sep": true
+      },
+      {
+        "compute": "What is 73 times 6?",
+        "retrieve": "What is the deepest ocean trench?",
+        "proj_c": 15.806599617004395,
+        "proj_r": 0.9205799102783203,
+        "sep": true
+      },
+      {
+        "compute": "What is 845 minus 298?",
+        "retrieve": "What is the language of Brazil?",
+        "proj_c": 18.78941535949707,
+        "proj_r": 6.088364601135254,
+        "sep": true
+      },
+      {
+        "compute": "What is 16 times 25?",
+        "retrieve": "What is the capital of Egypt?",
+        "proj_c": 16.420955657958984,
+        "proj_r": 3.1321582794189453,
+        "sep": true
+      },
+      {
+        "compute": "What is 333 plus 444?",
+        "retrieve": "What is the hardest natural mineral?",
+        "proj_c": 18.926891326904297,
+        "proj_r": 4.067817687988281,
+        "sep": true
+      },
+      {
+        "compute": "What is 64 divided by 8?",
+        "retrieve": "What is the smallest continent?",
+        "proj_c": 14.288936614990234,
+        "proj_r": 6.5061936378479,
+        "sep": true
+      },
+      {
+        "compute": "What is 29 times 13?",
+        "retrieve": "What is the capital of Canada?",
+        "proj_c": 15.485517501831055,
+        "proj_r": 2.971600294113159,
+        "sep": true
+      },
+      {
+        "compute": "What is 712 minus 485?",
+        "retrieve": "What is the chemical formula for salt?",
+        "proj_c": 18.757694244384766,
+        "proj_r": 5.381879806518555,
+        "sep": true
+      },
+      {
+        "compute": "What is 37 times 8?",
+        "retrieve": "What is the capital of Italy?",
+        "proj_c": 15.260602951049805,
+        "proj_r": 2.0376830101013184,
+        "sep": true
+      },
+      {
+        "compute": "What is 189 plus 267?",
+        "retrieve": "What is the largest desert?",
+        "proj_c": 18.048564910888672,
+        "proj_r": 2.6179776191711426,
+        "sep": true
+      },
+      {
+        "compute": "What is 96 divided by 6?",
+        "retrieve": "What is the national bird of the USA?",
+        "proj_c": 15.289630889892578,
+        "proj_r": 2.8622593879699707,
+        "sep": true
+      },
+      {
+        "compute": "What is 43 times 11?",
+        "retrieve": "What is the capital of Spain?",
+        "proj_c": 16.50585174560547,
+        "proj_r": 2.2122299671173096,
+        "sep": true
+      },
+      {
+        "compute": "What is 801 minus 399?",
+        "retrieve": "What is the most spoken language?",
+        "proj_c": 18.741971969604492,
+        "proj_r": 5.413363456726074,
+        "sep": true
+      },
+      {
+        "compute": "What is 55 times 7?",
+        "retrieve": "What is the capital of Russia?",
+        "proj_c": 15.577078819274902,
+        "proj_r": 3.12442946434021,
+        "sep": true
+      },
+      {
+        "compute": "What is 234 plus 678?",
+        "retrieve": "What is the smallest planet?",
+        "proj_c": 17.708927154541016,
+        "proj_r": 5.893771171569824,
+        "sep": true
+      },
+      {
+        "compute": "What is 150 divided by 5?",
+        "retrieve": "What is the symbol for sodium?",
+        "proj_c": 14.75765323638916,
+        "proj_r": 3.0088627338409424,
+        "sep": true
+      },
+      {
+        "compute": "What is 82 times 3?",
+        "retrieve": "What is the capital of Brazil?",
+        "proj_c": 16.01934814453125,
+        "proj_r": 2.670788288116455,
+        "sep": true
+      },
+      {
+        "compute": "What is 1024 minus 512?",
+        "retrieve": "What is the chemical symbol for oxygen?",
+        "proj_c": 19.281959533691406,
+        "proj_r": 2.496367931365967,
+        "sep": true
+      },
+      {
+        "compute": "What is 27 times 15?",
+        "retrieve": "What is the capital of China?",
+        "proj_c": 16.58115005493164,
+        "proj_r": 3.130793571472168,
+        "sep": true
+      }
+    ]
+  },
+  "reversed_length": {
+    "n": 30,
+    "separated": 30,
+    "d": 8.476232278650667,
+    "pairs": [
+      {
+        "compute": "47*38=",
+        "retrieve": "According to established historical records, the capital city of the country of France is widely known to be",
+        "proj_c": 15.37342643737793,
+        "proj_r": -1.4900202751159668,
+        "tok_c": 6,
+        "tok_r": 19,
+        "sep": true
+      },
+      {
+        "compute": "891-456=",
+        "retrieve": "In the well-documented field of chemistry, the molecular formula used to represent water is commonly written as",
+        "proj_c": 15.796621322631836,
+        "proj_r": -0.3816261291503906,
+        "tok_c": 8,
+        "tok_r": 20,
+        "sep": true
+      },
+      {
+        "compute": "23*19=",
+        "retrieve": "As any student of physics would know, the approximate speed of light traveling through a vacuum is",
+        "proj_c": 14.509312629699707,
+        "proj_r": 0.8052034378051758,
+        "tok_c": 6,
+        "tok_r": 18,
+        "sep": true
+      },
+      {
+        "compute": "73*8=",
+        "retrieve": "The famous English playwright William Shakespeare is well known for having written the tragedy of Romeo and",
+        "proj_c": 14.66571044921875,
+        "proj_r": -2.4038989543914795,
+        "tok_c": 5,
+        "tok_r": 17,
+        "sep": true
+      },
+      {
+        "compute": "347+289=",
+        "retrieve": "In basic geography that most people learn in school, the single largest ocean on the surface of planet Earth is the",
+        "proj_c": 15.815003395080566,
+        "proj_r": -2.2221007347106934,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "15*17=",
+        "retrieve": "Looking at the periodic table of elements, one can see that the standard chemical symbol used for the element gold is",
+        "proj_c": 14.749969482421875,
+        "proj_r": -0.07777166366577148,
+        "tok_c": 6,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "999-572=",
+        "retrieve": "It is a well established fact that the very first president of the United States of America was a man named George",
+        "proj_c": 16.05524253845215,
+        "proj_r": 1.0309858322143555,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "48*13=",
+        "retrieve": "According to basic science that everyone learns, the standard boiling point of pure water at normal sea level atmospheric pressure is",
+        "proj_c": 15.099201202392578,
+        "proj_r": 4.631386756896973,
+        "tok_c": 6,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "67+88=",
+        "retrieve": "Throughout human history, the country widely recognized as having the longest continuous civilization is the ancient land of",
+        "proj_c": 15.685073852539062,
+        "proj_r": -1.8576359748840332,
+        "tok_c": 6,
+        "tok_r": 19,
+        "sep": true
+      },
+      {
+        "compute": "34*9=",
+        "retrieve": "In modern astronomy, the planet in our solar system that is both the largest and most massive by a significant margin is",
+        "proj_c": 14.663321495056152,
+        "proj_r": -0.44014406204223633,
+        "tok_c": 5,
+        "tok_r": 23,
+        "sep": true
+      },
+      {
+        "compute": "500-213=",
+        "retrieve": "When studying the fundamental forces of nature, the force responsible for keeping planets in orbit around the sun is known as",
+        "proj_c": 16.828716278076172,
+        "proj_r": -3.2534027099609375,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "81/9=",
+        "retrieve": "In the field of biology and genetics, the molecule that carries the genetic instructions for development and functioning is called",
+        "proj_c": 15.437438011169434,
+        "proj_r": -5.826426982879639,
+        "tok_c": 5,
+        "tok_r": 21,
+        "sep": true
+      },
+      {
+        "compute": "127+348=",
+        "retrieve": "According to widely accepted geographic knowledge, the continent with the largest total land area on the surface of Earth is",
+        "proj_c": 16.742006301879883,
+        "proj_r": 0.025813579559326172,
+        "tok_c": 8,
+        "tok_r": 21,
+        "sep": true
+      },
+      {
+        "compute": "56*14=",
+        "retrieve": "The official language that is spoken by the majority of the population in the South American country of Brazil is",
+        "proj_c": 15.384784698486328,
+        "proj_r": 1.0852198600769043,
+        "tok_c": 6,
+        "tok_r": 20,
+        "sep": true
+      },
+      {
+        "compute": "19*21=",
+        "retrieve": "In the study of world religions, the religious text that is considered sacred by followers of Islam is known as the",
+        "proj_c": 14.727938652038574,
+        "proj_r": -6.403006553649902,
+        "tok_c": 6,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "432+567=",
+        "retrieve": "According to the most recent scientific consensus, the approximate age of the universe from the time of the Big Bang is",
+        "proj_c": 16.456668853759766,
+        "proj_r": 2.0301549434661865,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "88/4=",
+        "retrieve": "In European history, the military leader who crowned himself Emperor of France in 1804 and later was exiled to Elba was",
+        "proj_c": 15.229238510131836,
+        "proj_r": -1.3332972526550293,
+        "tok_c": 5,
+        "tok_r": 26,
+        "sep": true
+      },
+      {
+        "compute": "29*13=",
+        "retrieve": "The ancient wonder of the world that still stands today and is located on the Giza plateau near Cairo in Egypt is the",
+        "proj_c": 14.587329864501953,
+        "proj_r": -3.7239913940429688,
+        "tok_c": 6,
+        "tok_r": 24,
+        "sep": true
+      },
+      {
+        "compute": "712-485=",
+        "retrieve": "In the field of classical music, the Austrian composer who wrote over 600 works including Eine Kleine Nachtmusik was named",
+        "proj_c": 16.39875030517578,
+        "proj_r": -1.3544964790344238,
+        "tok_c": 8,
+        "tok_r": 25,
+        "sep": true
+      },
+      {
+        "compute": "37*8=",
+        "retrieve": "According to basic scientific knowledge taught in most schools around the world, the chemical element that humans breathe is",
+        "proj_c": 14.497907638549805,
+        "proj_r": 2.5477373600006104,
+        "tok_c": 5,
+        "tok_r": 20,
+        "sep": true
+      },
+      {
+        "compute": "189+267=",
+        "retrieve": "In the study of ancient civilizations, the system of writing used by the ancient Egyptians that used pictorial symbols is called",
+        "proj_c": 17.436832427978516,
+        "proj_r": -4.534447193145752,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "96/6=",
+        "retrieve": "The international organization established after World War Two to maintain peace and security among the nations of the world is the",
+        "proj_c": 15.392976760864258,
+        "proj_r": -4.008545398712158,
+        "tok_c": 5,
+        "tok_r": 21,
+        "sep": true
+      },
+      {
+        "compute": "43*11=",
+        "retrieve": "In the field of computer science, the programming language that was created by Guido van Rossum and released in 1991 is",
+        "proj_c": 14.856682777404785,
+        "proj_r": -3.3353066444396973,
+        "tok_c": 6,
+        "tok_r": 27,
+        "sep": true
+      },
+      {
+        "compute": "801-399=",
+        "retrieve": "According to well-established facts in the field of astronomy, the star that is closest to planet Earth besides our own Sun is",
+        "proj_c": 14.76536750793457,
+        "proj_r": 2.715207576751709,
+        "tok_c": 8,
+        "tok_r": 25,
+        "sep": true
+      },
+      {
+        "compute": "55*7=",
+        "retrieve": "In the history of scientific discovery, the physicist who developed the theory of general relativity in 1915 was the famous",
+        "proj_c": 14.945195198059082,
+        "proj_r": -3.7966957092285156,
+        "tok_c": 5,
+        "tok_r": 25,
+        "sep": true
+      },
+      {
+        "compute": "234+678=",
+        "retrieve": "The largest tropical rainforest on Earth, which spans across several countries in South America and contains incredible biodiversity, is the",
+        "proj_c": 16.539249420166016,
+        "proj_r": -4.867539405822754,
+        "tok_c": 8,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "82*3=",
+        "retrieve": "In the field of mathematics, the ancient Greek mathematician who is often called the father of geometry and wrote the Elements was",
+        "proj_c": 15.124581336975098,
+        "proj_r": -3.886992931365967,
+        "tok_c": 5,
+        "tok_r": 23,
+        "sep": true
+      },
+      {
+        "compute": "150/5=",
+        "retrieve": "According to established medical and biological knowledge, the organ in the human body that is responsible for pumping blood is the",
+        "proj_c": 15.828939437866211,
+        "proj_r": -5.75376033782959,
+        "tok_c": 6,
+        "tok_r": 22,
+        "sep": true
+      },
+      {
+        "compute": "27*15=",
+        "retrieve": "In the study of world geography, the country that has the largest total population of any nation on the surface of Earth is",
+        "proj_c": 14.995893478393555,
+        "proj_r": 0.4116940498352051,
+        "tok_c": 6,
+        "tok_r": 24,
+        "sep": true
+      },
+      {
+        "compute": "1024-512=",
+        "retrieve": "The famous Italian artist and polymath who painted the Mona Lisa and The Last Supper during the Renaissance period was named",
+        "proj_c": 16.41398811340332,
+        "proj_r": -1.234327793121338,
+        "tok_c": 9,
+        "tok_r": 22,
+        "sep": true
+      }
+    ]
+  },
+  "ci_calibration": {
+    "point": 1.0,
+    "lo": 0.9999999999999999,
+    "hi": 1.0
+  },
+  "ci_adversarial": {
+    "point": 0.9984,
+    "lo": 0.991674878003003,
+    "hi": 1.0
+  },
+  "ci_heldout": {
+    "point": 1.0,
+    "lo": 0.9999999999999999,
+    "hi": 1.0
+  },
+  "ci_failure_gemma-4-e2b-it": {
+    "point": 0.8782051282051282,
+    "lo": 0.830438268657549,
+    "hi": 0.917367958294429
+  },
+  "ci_failure_Qwen2.5-7B-Instruct": {
+    "point": 0.8854600663794929,
+    "lo": 0.8455495523299225,
+    "hi": 0.9268564683313654
+  },
+  "cross_validation": {
+    "folds": [
+      {
+        "fold": 0,
+        "layer": 17,
+        "train_auc": 1.0,
+        "test_auc": 0.9722222222222223
+      },
+      {
+        "fold": 1,
+        "layer": 17,
+        "train_auc": 1.0,
+        "test_auc": 1.0
+      },
+      {
+        "fold": 2,
+        "layer": 17,
+        "train_auc": 1.0,
+        "test_auc": 1.0
+      },
+      {
+        "fold": 3,
+        "layer": 17,
+        "train_auc": 1.0,
+        "test_auc": 1.0
+      },
+      {
+        "fold": 4,
+        "layer": 17,
+        "train_auc": 1.0,
+        "test_auc": 1.0
+      }
+    ],
+    "mean_auc": 0.9944444444444445,
+    "std_auc": 0.011111111111111072,
+    "layers": [
+      17,
+      17,
+      17,
+      17,
+      17
+    ],
+    "consistent": true
+  }
+}

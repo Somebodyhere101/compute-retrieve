@@ -1,0 +1,949 @@
+{
+  "phase1": {
+    "memorized": [
+      {
+        "prompt": "The capital of France is",
+        "expected": "paris",
+        "response": "The capital of France is **Paris**.",
+        "correct": true,
+        "projection": -11.811969757080078
+      },
+      {
+        "prompt": "E equals mc",
+        "expected": "squared",
+        "response": "**E=mc\u00b2** is one of the most famous and important equations ",
+        "correct": false,
+        "projection": -12.1322021484375
+      },
+      {
+        "prompt": "To be or not to be, that is the",
+        "expected": "question",
+        "response": "\"To be or not to be, that is the **question of life**.\"\n\nThi",
+        "correct": true,
+        "projection": -8.094298362731934
+      },
+      {
+        "prompt": "The mitochondria is the powerhouse of the",
+        "expected": "cell",
+        "response": "The mitochondria is the powerhouse of the **cell**.",
+        "correct": true,
+        "projection": -12.256402969360352
+      },
+      {
+        "prompt": "Water's chemical formula is",
+        "expected": "h2o",
+        "response": "The chemical formula for water is **$\\text{H}_2\\text{O}$**.\n",
+        "correct": false,
+        "projection": -10.681245803833008
+      },
+      {
+        "prompt": "The speed of light is approximately",
+        "expected": "299",
+        "response": "The speed of light in a vacuum is approximately **299,792,45",
+        "correct": true,
+        "projection": -16.586153030395508
+      },
+      {
+        "prompt": "Einstein developed the theory of",
+        "expected": "relativity",
+        "response": "Einstein developed the theory of **relativity**.\n\nThis is us",
+        "correct": true,
+        "projection": -14.188021659851074
+      },
+      {
+        "prompt": "The largest planet in our solar system is",
+        "expected": "jupiter",
+        "response": "The largest planet in our solar system is **Jupiter**.",
+        "correct": true,
+        "projection": -11.65359115600586
+      },
+      {
+        "prompt": "DNA stands for",
+        "expected": "deoxyribonucleic",
+        "response": "DNA stands for **Deoxyribonucleic acid**.",
+        "correct": true,
+        "projection": -12.168495178222656
+      },
+      {
+        "prompt": "The chemical symbol for gold is",
+        "expected": "au",
+        "response": "The chemical symbol for gold is **Au**.",
+        "correct": true,
+        "projection": -9.830367088317871
+      },
+      {
+        "prompt": "Shakespeare wrote Romeo and",
+        "expected": "juliet",
+        "response": "Shakespeare wrote **Romeo and Juliet**.",
+        "correct": true,
+        "projection": -11.68452262878418
+      },
+      {
+        "prompt": "The first president of the United States was",
+        "expected": "washington",
+        "response": "The first president of the United States was **George Washin",
+        "correct": true,
+        "projection": -13.571244239807129
+      },
+      {
+        "prompt": "Photosynthesis converts sunlight into",
+        "expected": "energy",
+        "response": "Photosynthesis converts sunlight into **chemical energy** st",
+        "correct": true,
+        "projection": -10.928954124450684
+      },
+      {
+        "prompt": "The Great Wall is located in",
+        "expected": "china",
+        "response": "Please tell me **which Great Wall you are referring to**!\n\nT",
+        "correct": false,
+        "projection": -13.206253051757812
+      },
+      {
+        "prompt": "Pi is approximately",
+        "expected": "3.14",
+        "response": "Pi ($\\pi$) is approximately **3.14159**.\n\nDepending on the c",
+        "correct": true,
+        "projection": -9.532696723937988
+      },
+      {
+        "prompt": "Oxygen's atomic number is",
+        "expected": "8",
+        "response": "Oxygen's atomic number is **8**.",
+        "correct": true,
+        "projection": -7.928603172302246
+      },
+      {
+        "prompt": "The Mona Lisa was painted by",
+        "expected": "vinci",
+        "response": "The Mona Lisa was painted by **Leonardo da Vinci**.",
+        "correct": true,
+        "projection": -14.569265365600586
+      },
+      {
+        "prompt": "The boiling point of water is",
+        "expected": "100",
+        "response": "The boiling point of water is **100 degrees Celsius ($\\text{",
+        "correct": true,
+        "projection": -14.940025329589844
+      },
+      {
+        "prompt": "Neil Armstrong first walked on the",
+        "expected": "moon",
+        "response": "Neil Armstrong first walked on the **Moon**.",
+        "correct": true,
+        "projection": -8.408638000488281
+      },
+      {
+        "prompt": "The currency of Japan is the",
+        "expected": "yen",
+        "response": "The currency of Japan is the **Japanese yen** (\u00a5 or JPY).",
+        "correct": true,
+        "projection": -15.889325141906738
+      }
+    ],
+    "generalized": [
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "response": "To find the sum of 347 and 289, you can add them column by c",
+        "correct": false,
+        "projection": 25.850208282470703
+      },
+      {
+        "prompt": "If all blorks are snargs, and Ted is a blork, then Ted is a",
+        "expected": "snarg",
+        "response": "This is a classic example of a **syllogism**.\n\nHere's the br",
+        "correct": false,
+        "projection": 14.332845687866211
+      },
+      {
+        "prompt": "What comes next: 3, 7, 15, 31, ?",
+        "expected": "63",
+        "response": "This is a sequence where the difference between consecutive ",
+        "correct": false,
+        "projection": 23.245166778564453
+      },
+      {
+        "prompt": "If it takes 3 painters 6 hours to paint a house, how many hours for 9 painters?",
+        "expected": "2",
+        "response": "Here's how to solve this problem using the concept of invers",
+        "correct": false,
+        "projection": 22.38152313232422
+      },
+      {
+        "prompt": "What is 891 minus 456?",
+        "expected": "435",
+        "response": "Here are a couple of ways to solve the subtraction problem $",
+        "correct": false,
+        "projection": 25.15192413330078
+      },
+      {
+        "prompt": "If all zippets are mornful, and Quib is a zippet, is Quib mornful?",
+        "expected": "yes",
+        "response": "Yes, **Quib is mornful**.\n\nHere's the logic:\n\n1. **Premise 1",
+        "correct": true,
+        "projection": 15.906598091125488
+      },
+      {
+        "prompt": "What is 23 times 19?",
+        "expected": "437",
+        "response": "Here are a couple of ways to calculate $23 \\times 19$:\n\n**Me",
+        "correct": false,
+        "projection": 17.89666748046875
+      },
+      {
+        "prompt": "What comes next: 2, 6, 18, 54, ?",
+        "expected": "162",
+        "response": "The next number in the sequence is **162**.\n\nHere's the patt",
+        "correct": true,
+        "projection": 22.322307586669922
+      },
+      {
+        "prompt": "If a train travels 80 km/h for 2.5 hours, how far does it go?",
+        "expected": "200",
+        "response": "Here's how to solve the problem:\n\n**1. Identify the given in",
+        "correct": false,
+        "projection": 19.569089889526367
+      },
+      {
+        "prompt": "What is 15 times 17?",
+        "expected": "255",
+        "response": "Here are a few ways to calculate 15 times 17:\n\n**Method 1: S",
+        "correct": false,
+        "projection": 17.790454864501953
+      },
+      {
+        "prompt": "In the pattern AZ BY CX, what comes next?",
+        "expected": "dw",
+        "response": "The next letter in the pattern is **DW**.\n\nHere's the patter",
+        "correct": true,
+        "projection": 19.343725204467773
+      },
+      {
+        "prompt": "If 5 workers finish a job in 12 days, how many days for 15 workers?",
+        "expected": "4",
+        "response": "Here's how to solve this problem using the concept of invers",
+        "correct": false,
+        "projection": 19.898284912109375
+      },
+      {
+        "prompt": "What is 999 minus 572?",
+        "expected": "427",
+        "response": "Here are a couple of ways to solve the problem:\n\n**Method 1:",
+        "correct": false,
+        "projection": 24.848979949951172
+      },
+      {
+        "prompt": "All gromphs have three tails. Blex is a gromph. How many tails does Blex have?",
+        "expected": "three",
+        "response": "Blex has **three** tails.",
+        "correct": true,
+        "projection": 15.607518196105957
+      },
+      {
+        "prompt": "What is 48 times 13?",
+        "expected": "624",
+        "response": "Here are a couple of ways to calculate $48 \\times 13$:\n\n**Me",
+        "correct": false,
+        "projection": 19.985069274902344
+      },
+      {
+        "prompt": "If RED=345, BED=234, then FED=?",
+        "expected": "634",
+        "response": "This is a letter-to-number coding problem. We need to figure",
+        "correct": false,
+        "projection": 23.580814361572266
+      },
+      {
+        "prompt": "What is 256 + 389?",
+        "expected": "645",
+        "response": "To find the sum of 256 and 389, you can add them together:\n\n",
+        "correct": false,
+        "projection": 25.455842971801758
+      },
+      {
+        "prompt": "If every malk is a plonk, and no plonk is a drent, is any malk a drent?",
+        "expected": "no",
+        "response": "No, no malk is a drent.\n\nHere's the reasoning:\n\n1. **Premise",
+        "correct": true,
+        "projection": 14.928288459777832
+      },
+      {
+        "prompt": "What is 73 times 8?",
+        "expected": "584",
+        "response": "Here are a couple of ways to calculate 73 times 8:\n\n**Method",
+        "correct": false,
+        "projection": 20.06536102294922
+      },
+      {
+        "prompt": "What comes next: 1, 4, 9, 16, 25, ?",
+        "expected": "36",
+        "response": "The next number in the sequence is **36**.\n\nHere's why:\n\nThe",
+        "correct": true,
+        "projection": 18.014541625976562
+      }
+    ],
+    "ambiguous": [
+      {
+        "prompt": "What is 12 times 12?",
+        "expected": "144",
+        "response": "12 times 12 is **144**.",
+        "correct": true,
+        "projection": 11.344436645507812
+      },
+      {
+        "prompt": "What is the square root of 144?",
+        "expected": "12",
+        "response": "The square root of 144 is **12**.\n\nThis is because $12 \\time",
+        "correct": true,
+        "projection": 4.995423316955566
+      },
+      {
+        "prompt": "If A is greater than B and B is greater than C, then A is greater than C. True or false?",
+        "expected": "true",
+        "response": "**True**\n\nThis is an example of the **transitive property of",
+        "correct": true,
+        "projection": 11.375946998596191
+      },
+      {
+        "prompt": "What is 7 times 8?",
+        "expected": "56",
+        "response": "7 times 8 is **56**.",
+        "correct": true,
+        "projection": 11.183904647827148
+      },
+      {
+        "prompt": "What is 100 divided by 4?",
+        "expected": "25",
+        "response": "100 divided by 4 is **25**.",
+        "correct": true,
+        "projection": 11.202200889587402
+      },
+      {
+        "prompt": "An octagon has how many sides?",
+        "expected": "8",
+        "response": "An octagon has **eight** sides.",
+        "correct": false,
+        "projection": -2.6731271743774414
+      },
+      {
+        "prompt": "What is 15 percent of 200?",
+        "expected": "30",
+        "response": "Here are a few ways to calculate 15 percent of 200:\n\n**Metho",
+        "correct": false,
+        "projection": 18.629886627197266
+      },
+      {
+        "prompt": "If all mammals are animals, and all dogs are mammals, are all dogs animals?",
+        "expected": "yes",
+        "response": "**Yes, all dogs are animals.**\n\nThis is a classic example of",
+        "correct": true,
+        "projection": 11.941946029663086
+      },
+      {
+        "prompt": "What is the next prime after 7?",
+        "expected": "11",
+        "response": "The next prime number after 7 is **11**.",
+        "correct": true,
+        "projection": 9.689030647277832
+      },
+      {
+        "prompt": "What is 2 to the power of 10?",
+        "expected": "1024",
+        "response": "2 to the power of 10, written as $2^{10}$, is:\n\n$$2^{10} = 1",
+        "correct": false,
+        "projection": 6.156036853790283
+      }
+    ]
+  },
+  "phase2": {
+    "mem_mean": -12.003113746643066,
+    "mem_std": 2.438154184913958,
+    "gen_mean": 20.308760595321655,
+    "gen_std": 3.5659895192965045,
+    "amb_mean": 9.384568548202514,
+    "amb_std": 5.305967309122395,
+    "auc": 1.0,
+    "cohens_d": 10.578184145512415,
+    "gap": 32.311874341964725,
+    "ordering_correct": "True"
+  },
+  "phase3": {
+    "correlation": 0.951,
+    "low_mean": 13.141502804226345,
+    "mid_mean": 19.346436500549316,
+    "high_mean": 23.29314973619249,
+    "monotonic": true,
+    "details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "response": "1 + 1 is **2**.",
+        "correct": true,
+        "projection": 9.361003875732422,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "response": "2 + 2 is **4**.",
+        "correct": true,
+        "projection": 12.09393310546875,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "response": "5 + 5 is **10**.",
+        "correct": true,
+        "projection": 13.459360122680664,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "response": "$7 \\times 8 = 56$",
+        "correct": true,
+        "projection": 13.578359603881836,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "response": "$9 \\times 9 = 81$",
+        "correct": true,
+        "projection": 12.722841262817383,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "response": "$6 \\times 7 = 42$",
+        "correct": true,
+        "projection": 13.690876007080078,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "response": "$12 \\times 12 = 144$",
+        "correct": true,
+        "projection": 14.223098754882812,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 15 * 15?",
+        "expected": "225",
+        "response": "Here are a few ways to calculate $15 \\ti",
+        "correct": false,
+        "projection": 15.353691101074219,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "response": "$11 \\times 11 = 121$",
+        "correct": true,
+        "projection": 13.790361404418945,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "response": "Here are a few ways to calculate $13 \\ti",
+        "correct": false,
+        "projection": 17.955711364746094,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "response": "Here are a few ways to calculate $17 \\ti",
+        "correct": false,
+        "projection": 19.828853607177734,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 19 * 8?",
+        "expected": "152",
+        "response": "Here are a few ways to calculate $19 \\ti",
+        "correct": false,
+        "projection": 19.996192932128906,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "response": "Here are a few ways to calculate $23 \\ti",
+        "correct": false,
+        "projection": 19.293006896972656,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 19.613452911376953,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 37 * 11?",
+        "expected": "407",
+        "response": "Here are a few ways to calculate $37 \\ti",
+        "correct": false,
+        "projection": 19.391401290893555,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 20.759323120117188,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 63 * 29?",
+        "expected": "1827",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 20.03312110900879,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 20.896408081054688,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "response": "To find the sum of 347 and 289, you can ",
+        "correct": false,
+        "projection": 25.850208282470703,
+        "memorization_score": 9,
+        "description": "multi-digit add"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "response": "To find the difference between 891 and 4",
+        "correct": false,
+        "projection": 25.776033401489258,
+        "memorization_score": 9,
+        "description": "multi-digit sub"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 21.371200561523438,
+        "memorization_score": 10,
+        "description": "large multiply"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "response": "To find the sum of 789 and 654, you can ",
+        "correct": false,
+        "projection": 25.516559600830078,
+        "memorization_score": 10,
+        "description": "large add"
+      },
+      {
+        "prompt": "What is 1847 * 3?",
+        "expected": "5541",
+        "response": "Here are a couple of ways to calculate $",
+        "correct": false,
+        "projection": 24.109561920166016,
+        "memorization_score": 10,
+        "description": "large multiply"
+      },
+      {
+        "prompt": "What is 2468 + 1357?",
+        "expected": "3825",
+        "response": "To find the sum of 2468 and 1357, we add",
+        "correct": false,
+        "projection": 25.325931549072266,
+        "memorization_score": 10,
+        "description": "large add"
+      }
+    ],
+    "note": "updated to match benchmark calibration run"
+  },
+  "phase4": {
+    "n_pairs": 8,
+    "n_novel_higher": 7,
+    "pct_novel_higher": 0.875,
+    "mean_gap": 4.91630145907402,
+    "novel_mean": 16.08599102497101,
+    "familiar_mean": 11.169689565896988,
+    "details": [
+      {
+        "structure": "modus_ponens",
+        "novel_prompt": "All zippets are mornful. Quib is a zippet. Is Quib mornful?",
+        "familiar_prompt": "All dogs bark. Rex is a dog. Does Rex bark?",
+        "novel_proj": 15.89510726928711,
+        "familiar_proj": 15.866376876831055,
+        "gap": 0.028730392456054688,
+        "novel_response": "Yes, **Quib is mornful**.\n\nHere's the re",
+        "familiar_response": "Yes, Rex barks.\n\nHere's why:\n\n* **Premis",
+        "novel_correct": true,
+        "familiar_correct": true,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "composition",
+        "novel_prompt": "In Zarblish, 'kal' means big and 'nep' means house. What might 'kalnep' mean?",
+        "familiar_prompt": "In English, 'fire' means hot burning and 'truck' means vehicle. What does 'firetruck' mean?",
+        "novel_proj": 11.740135192871094,
+        "familiar_proj": -1.589704990386963,
+        "gap": 13.329840183258057,
+        "novel_response": "Based on the provided information:\n\n* **",
+        "familiar_response": "'Firetruck' means a **vehicle used to fi",
+        "novel_correct": false,
+        "familiar_correct": false,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "pattern",
+        "novel_prompt": "If ABCD becomes BCDE, then WXYZ becomes?",
+        "familiar_prompt": "If 1234 becomes 2345, then 6789 becomes?",
+        "novel_proj": 18.898941040039062,
+        "familiar_proj": 22.042221069335938,
+        "gap": -3.143280029296875,
+        "novel_response": "This is a problem about **letter transfo",
+        "familiar_response": "Let's analyze the transformation from 12",
+        "novel_correct": false,
+        "familiar_correct": false,
+        "novel_more_compute": false
+      },
+      {
+        "structure": "encoding",
+        "novel_prompt": "In a code: X=1, Y=2, Z=3. What is YXZ?",
+        "familiar_prompt": "In ASCII: A=65, B=66, C=67. What is BAC?",
+        "novel_proj": 20.093280792236328,
+        "familiar_proj": 19.835521697998047,
+        "gap": 0.25775909423828125,
+        "novel_response": "Here's how to solve this:\n\n* **Given val",
+        "familiar_response": "Here's how to solve this:\n\n1. **Identify",
+        "novel_correct": false,
+        "familiar_correct": false,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "temporal",
+        "novel_prompt": "Blarks always eat gromphs before sleeping. A blark just woke up. Did it recently eat a gromph?",
+        "familiar_prompt": "Cats always purr when happy. A cat is purring. Is it happy?",
+        "novel_proj": 11.260643005371094,
+        "familiar_proj": 9.042613983154297,
+        "gap": 2.218029022216797,
+        "novel_response": "Based on the information given, we **can",
+        "familiar_response": "This is an example of a logical fallacy ",
+        "novel_correct": false,
+        "familiar_correct": false,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "negation",
+        "novel_prompt": "No plonk is a drent. Malko is a plonk. Is Malko a drent?",
+        "familiar_prompt": "No fish can walk. Sam is a fish. Can Sam walk?",
+        "novel_proj": 17.107315063476562,
+        "familiar_proj": 14.556224822998047,
+        "gap": 2.5510902404785156,
+        "novel_response": "This is a logic puzzle based on the give",
+        "familiar_response": "No, Sam cannot walk.\n\nHere's why:\n\n* **P",
+        "novel_correct": true,
+        "familiar_correct": true,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "counting",
+        "novel_prompt": "All gromphs have three tails. Blex is a gromph. How many tails does Blex have?",
+        "familiar_prompt": "All triangles have three sides. This is a triangle. How many sides does it have?",
+        "novel_proj": 15.607518196105957,
+        "familiar_proj": 2.0640952587127686,
+        "gap": 13.543422937393188,
+        "novel_response": "Blex has **three** tails.",
+        "familiar_response": "It has **three** sides.",
+        "novel_correct": true,
+        "familiar_correct": true,
+        "novel_more_compute": true
+      },
+      {
+        "structure": "conditional",
+        "novel_prompt": "If a blonk weighs more than 10 zorps, it sinks. A blonk weighs 15 zorps. Does it sink?",
+        "familiar_prompt": "If temperature is above 100 degrees, water boils. Temperature is 120 degrees. Does water boil?",
+        "novel_proj": 18.08498764038086,
+        "familiar_proj": 7.540167808532715,
+        "gap": 10.544819831848145,
+        "novel_response": "Here's the breakdown:\n\n* **Rule:** If a ",
+        "familiar_response": "**Yes, water boils.**\n\nHere's why:\n\nThe ",
+        "novel_correct": false,
+        "familiar_correct": true,
+        "novel_more_compute": true
+      }
+    ]
+  },
+  "phase5": {
+    "loo_accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "threshold": 4.152823424339294,
+    "phase4_both_correct": 2,
+    "phase4_total": 8
+  },
+  "phase6": {
+    "model": "Qwen2.5-7B-Instruct",
+    "best_layer": 14,
+    "best_auc": 1.0,
+    "correlation": 0.6219364499813376,
+    "low_mean": 36.700494130452476,
+    "mid_mean": 38.84909439086914,
+    "high_mean": 38.96722327338325,
+    "monotonic": true,
+    "details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "response": "1 + 1 equals 2. This is one of the basic",
+        "correct": true,
+        "projection": 32.705665588378906,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "response": "2 + 2 equals 4. This is one of the basic",
+        "correct": true,
+        "projection": 34.398223876953125,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "response": "5 + 5 equals 10. \n\nThis is a basic addit",
+        "correct": true,
+        "projection": 37.49418258666992,
+        "memorization_score": 1,
+        "description": "trivially memorized"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "response": "The answer to 7 * 8 is 56. \n\nThis calcul",
+        "correct": true,
+        "projection": 38.252864837646484,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "response": "9 * 9 equals 81.",
+        "correct": true,
+        "projection": 36.809104919433594,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "response": "The answer to 6 * 7 is 42. \n\nThis multip",
+        "correct": true,
+        "projection": 38.54926300048828,
+        "memorization_score": 2,
+        "description": "times table"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "response": "12 * 12 equals 144. \n\nYou can verify thi",
+        "correct": true,
+        "projection": 37.8905029296875,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 15 * 15?",
+        "expected": "225",
+        "response": "15 * 15 equals 225. You can calculate th",
+        "correct": true,
+        "projection": 37.097984313964844,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "response": "11 * 11 equals 121. You can calculate th",
+        "correct": true,
+        "projection": 37.10665512084961,
+        "memorization_score": 3,
+        "description": "common square"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "response": "To solve the problem of multiplying 13 b",
+        "correct": false,
+        "projection": 37.92137908935547,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "response": "The answer is 102. You can calculate thi",
+        "correct": true,
+        "projection": 39.795631408691406,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 19 * 8?",
+        "expected": "152",
+        "response": "The answer is 152. You can calculate thi",
+        "correct": true,
+        "projection": 39.17112731933594,
+        "memorization_score": 5,
+        "description": "less common"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "response": "To calculate \\(23 \\times 17\\), we can us",
+        "correct": false,
+        "projection": 38.633331298828125,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "response": "To solve the multiplication problem \\(29",
+        "correct": false,
+        "projection": 39.25620651245117,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 37 * 11?",
+        "expected": "407",
+        "response": "To solve the multiplication problem \\(37",
+        "correct": false,
+        "projection": 38.316890716552734,
+        "memorization_score": 7,
+        "description": "uncommon"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "response": "To find the product of 47 and 38, we can",
+        "correct": false,
+        "projection": 38.70578384399414,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 63 * 29?",
+        "expected": "1827",
+        "response": "To find the product of 63 and 29, we can",
+        "correct": false,
+        "projection": 38.71105194091797,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "response": "To find the product of 87 and 43, we can",
+        "correct": false,
+        "projection": 38.920936584472656,
+        "memorization_score": 9,
+        "description": "definitely computed"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "response": "To solve the problem \\(347 + 289\\), we c",
+        "correct": false,
+        "projection": 40.81931686401367,
+        "memorization_score": 9,
+        "description": "multi-digit add"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "response": "To solve the problem \\(891 - 456\\), we c",
+        "correct": false,
+        "projection": 39.05927276611328,
+        "memorization_score": 9,
+        "description": "multi-digit sub"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "response": "To find the product of 123 and 45, we ca",
+        "correct": false,
+        "projection": 37.74209976196289,
+        "memorization_score": 10,
+        "description": "large multiply"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "response": "To find the sum of 789 and 654, we can a",
+        "correct": false,
+        "projection": 40.00993347167969,
+        "memorization_score": 10,
+        "description": "large add"
+      },
+      {
+        "prompt": "What is 1847 * 3?",
+        "expected": "5541",
+        "response": "To solve the problem of multiplying 1847",
+        "correct": false,
+        "projection": 37.90749740600586,
+        "memorization_score": 10,
+        "description": "large multiply"
+      },
+      {
+        "prompt": "What is 2468 + 1357?",
+        "expected": "3825",
+        "response": "To solve the problem \\(2468 + 1357\\), we",
+        "correct": false,
+        "projection": 38.82911682128906,
+        "memorization_score": 10,
+        "description": "large add"
+      }
+    ]
+  }
+}

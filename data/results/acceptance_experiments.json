@@ -1,0 +1,20 @@
+{
+  "adversarial": {
+    "math_retrieval_mean": 7.62864782333374,
+    "math_retrieval_std": 2.9371254490638594,
+    "trivia_compute_mean": 23.54839458465576,
+    "trivia_compute_std": 3.1062839933158584,
+    "auc": 0.9984,
+    "d": 5.266402758928781,
+    "n_math_retrieval": 25,
+    "n_trivia_compute": 25
+  },
+  "baselines": {
+    "mean_diff_auc": 0.9984,
+    "logistic_regression_auc": 0.984,
+    "pca1_auc": 1.0,
+    "random_mean_auc": 0.6725120000000001,
+    "random_max_auc": 0.9568,
+    "cos_lr_meandiff": 0.7434656765853238
+  }
+}

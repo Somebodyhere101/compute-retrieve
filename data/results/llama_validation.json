@@ -1,0 +1,25 @@
+{
+  "model": "unsloth/Llama-3.2-1B-Instruct",
+  "layer": 12,
+  "calibration_auc": 1.0,
+  "format": {
+    "separated": 20,
+    "total": 20
+  },
+  "reversed": {
+    "separated": 20,
+    "total": 20,
+    "d": 12.375030906313365
+  },
+  "within_subject_physics": {
+    "auc": 0.99,
+    "d": 4.004846519469273,
+    "recall_mean": -2.2620762944221497,
+    "compute_mean": 1.0345981121063232
+  },
+  "gradient": {
+    "auc": 1.0,
+    "trivial_mean": 0.03397838622331619,
+    "hard_mean": 0.8930102825164795
+  }
+}

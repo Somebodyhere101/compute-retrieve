@@ -1,0 +1,833 @@
+{
+  "exp2_causal_ablation": {
+    "reasoning": [
+      {
+        "prompt": "All dogs bark. Rex is a dog. Therefore Rex",
+        "expected": "barks",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.999984860420227,
+        "cos_ctrl": 0.9999848008155823,
+        "kl_abl": 1.889633693963333e-07,
+        "kl_ctrl": 3.012809656866011e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "All cats purr. Tom is a cat. Therefore Tom",
+        "expected": "purr",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999890327453613,
+        "cos_ctrl": 0.9999886751174927,
+        "kl_abl": 2.541869719152601e-07,
+        "kl_ctrl": 1.9521348804119043e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "No fish walk. Sam is a fish. Therefore Sam",
+        "expected": "not",
+        "base_top1": "This",
+        "abl_top1": "This",
+        "ctrl_top1": "This",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999925494194031,
+        "cos_ctrl": 0.9999921321868896,
+        "kl_abl": 5.566288905356487e-07,
+        "kl_ctrl": 8.438268196186982e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "If it rains the ground gets wet. It rains. Therefore the ground",
+        "expected": "wet",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999792575836182,
+        "cos_ctrl": 0.9999794363975525,
+        "kl_abl": 5.965608806945966e-08,
+        "kl_ctrl": 6.202482722983405e-07,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "All birds fly. Robin is a bird. Therefore Robin",
+        "expected": "flies",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999829530715942,
+        "cos_ctrl": 0.9999828934669495,
+        "kl_abl": 1.202788411092115e-07,
+        "kl_ctrl": 1.167875964824816e-07,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "If P then Q. P is true. Therefore Q is",
+        "expected": "true",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999833106994629,
+        "cos_ctrl": 0.9999833106994629,
+        "kl_abl": 8.606521078036167e-06,
+        "kl_ctrl": 9.620806622478995e-07,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "All metals conduct. Iron is a metal. Therefore iron",
+        "expected": "conduct",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999982118606567,
+        "cos_ctrl": 0.9999984502792358,
+        "kl_abl": 9.78143503971296e-08,
+        "kl_ctrl": 3.731900335424143e-07,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "If you study you pass. You studied. Therefore you",
+        "expected": "pass",
+        "base_top1": "Therefore",
+        "abl_top1": "Therefore",
+        "ctrl_top1": "Therefore",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999788403511047,
+        "cos_ctrl": 0.99997878074646,
+        "kl_abl": 6.094290228020327e-08,
+        "kl_ctrl": -4.91669815971818e-08,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "2, 4, 6, 8,",
+        "expected": "10",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 1.0000032186508179,
+        "cos_ctrl": 1.0000033378601074,
+        "kl_abl": 2.823812792485114e-06,
+        "kl_ctrl": 1.2564256621772074e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "1, 3, 5, 7,",
+        "expected": "9",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 1.0000005960464478,
+        "cos_ctrl": 1.000000238418579,
+        "kl_abl": 3.7309862932488613e-07,
+        "kl_ctrl": 1.2088137737009674e-05,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      }
+    ],
+    "nonreasoning": [
+      {
+        "prompt": "The capital of France is",
+        "expected": "paris",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999784827232361,
+        "cos_ctrl": 0.999978244304657,
+        "kl_abl": -1.1654291975915498e-09,
+        "kl_ctrl": -1.186811537934318e-09,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "Water's chemical formula is",
+        "expected": "h2o",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999989867210388,
+        "cos_ctrl": 0.9999988079071045,
+        "kl_abl": 5.13640641131019e-09,
+        "kl_ctrl": 8.362528205907438e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "The largest ocean is the",
+        "expected": "pacific",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999786019325256,
+        "cos_ctrl": 0.9999772310256958,
+        "kl_abl": -4.9729102613582654e-08,
+        "kl_ctrl": 3.758552225008316e-08,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "The speed of light is approximately",
+        "expected": "299",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999994039535522,
+        "cos_ctrl": 0.9999992847442627,
+        "kl_abl": 2.913473684529322e-09,
+        "kl_ctrl": -1.3344626736966347e-08,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "The first president of the US was",
+        "expected": "washington",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 1.0000054836273193,
+        "cos_ctrl": 1.0000054836273193,
+        "kl_abl": -1.834066587491634e-08,
+        "kl_ctrl": 2.417638533813715e-09,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "A dog is a type of",
+        "expected": "animal",
+        "base_top1": "A",
+        "abl_top1": "A",
+        "ctrl_top1": "A",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 1.0000028610229492,
+        "cos_ctrl": 1.0000030994415283,
+        "kl_abl": -7.129556056639785e-09,
+        "kl_ctrl": -1.5495854199798487e-07,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "The sun is a",
+        "expected": "star",
+        "base_top1": "Here",
+        "abl_top1": "Here",
+        "ctrl_top1": "Here",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999743700027466,
+        "cos_ctrl": 0.9999738931655884,
+        "kl_abl": 2.5720646590343677e-05,
+        "kl_ctrl": 7.008389246720981e-08,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "To be or not to",
+        "expected": "be",
+        "base_top1": "\"",
+        "abl_top1": "\"",
+        "ctrl_top1": "\"",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999787211418152,
+        "cos_ctrl": 0.9999776482582092,
+        "kl_abl": 2.410064894320385e-07,
+        "kl_ctrl": 2.1499902231880696e-06,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "The boiling point of water is",
+        "expected": "100",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 0.9999805688858032,
+        "cos_ctrl": 0.9999807476997375,
+        "kl_abl": 3.081643384916788e-08,
+        "kl_ctrl": 1.4458073849255015e-08,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      },
+      {
+        "prompt": "I think therefore I",
+        "expected": "am",
+        "base_top1": "The",
+        "abl_top1": "The",
+        "ctrl_top1": "The",
+        "base_ok": false,
+        "abl_ok": false,
+        "ctrl_ok": false,
+        "cos_abl": 1.000000238418579,
+        "cos_ctrl": 0.9999992251396179,
+        "kl_abl": 2.9036156774964184e-05,
+        "kl_ctrl": 3.1007712095743045e-05,
+        "top1_changed_abl": false,
+        "top1_changed_ctrl": false
+      }
+    ]
+  },
+  "exp3_pr_temperature": {
+    "T=0.1": {
+      "mean_pr": "1.043149",
+      "std_pr": "0.17473245",
+      "prs": [
+        1.0,
+        1.0,
+        1.0,
+        1.0000982284545898,
+        1.1196777820587158,
+        1.0000008344650269,
+        1.2216042280197144,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.000000238418579,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.953082799911499,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0000053644180298
+      ]
+    },
+    "T=0.3": {
+      "mean_pr": "1.0876888",
+      "std_pr": "0.2496239",
+      "prs": [
+        1.0,
+        1.0008525848388672,
+        1.0000015497207642,
+        1.078886866569519,
+        1.6790722608566284,
+        1.0149545669555664,
+        1.7832530736923218,
+        1.0000457763671875,
+        1.0000007152557373,
+        1.0,
+        1.0000001192092896,
+        1.01559317111969,
+        1.0,
+        1.0,
+        1.0000014305114746,
+        1.0,
+        1.0,
+        2.008227586746216,
+        1.0,
+        1.0,
+        1.0,
+        1.0000033378601074,
+        1.0026812553405762,
+        1.0,
+        1.0,
+        1.0001118183135986,
+        1.000000238418579,
+        1.0,
+        1.0001022815704346,
+        1.0468758344650269
+      ]
+    },
+    "T=0.5": {
+      "mean_pr": "1.1316186",
+      "std_pr": "0.30021513",
+      "prs": [
+        1.0,
+        1.019003987312317,
+        1.0005450248718262,
+        1.3349008560180664,
+        1.8602756261825562,
+        1.1057155132293701,
+        1.9285340309143066,
+        1.0045807361602783,
+        1.0002743005752563,
+        1.0,
+        1.0000970363616943,
+        1.1471284627914429,
+        1.0000330209732056,
+        1.0,
+        1.0004265308380127,
+        1.0000500679016113,
+        1.0,
+        2.1703944206237793,
+        1.0,
+        1.0000221729278564,
+        1.0000001192092896,
+        1.0006921291351318,
+        1.037782907485962,
+        1.0,
+        1.0,
+        1.0056174993515015,
+        1.0001860857009888,
+        1.0,
+        1.0088738203048706,
+        1.3234225511550903
+      ]
+    },
+    "T=1.0": {
+      "mean_pr": "1.3260741",
+      "std_pr": "0.5656514",
+      "prs": [
+        1.0,
+        1.1954442262649536,
+        1.053025245666504,
+        2.0379648208618164,
+        1.9632692337036133,
+        1.4442704916000366,
+        2.1644086837768555,
+        1.1622830629348755,
+        1.0278351306915283,
+        1.0000007152557373,
+        1.017928123474121,
+        1.953091025352478,
+        1.0099499225616455,
+        1.0001270771026611,
+        1.0293060541152954,
+        1.0172717571258545,
+        1.0000848770141602,
+        3.3497581481933594,
+        1.000028133392334,
+        1.0088927745819092,
+        1.0007895231246948,
+        1.037295937538147,
+        1.2731692790985107,
+        1.0000054836273193,
+        1.0000004768371582,
+        1.1060439348220825,
+        1.0328816175460815,
+        1.0,
+        1.2994153499603271,
+        2.597679376602173
+      ]
+    },
+    "T=2.0": {
+      "mean_pr": "2.7190025",
+      "std_pr": "2.9558692",
+      "prs": [
+        1.0221747159957886,
+        1.7249400615692139,
+        3.239384889602661,
+        2.705686569213867,
+        2.1872005462646484,
+        2.052584648132324,
+        3.266969919204712,
+        2.3833510875701904,
+        1.3432685136795044,
+        1.0612128973007202,
+        1.6042814254760742,
+        6.339960098266602,
+        1.209706425666809,
+        1.9815500974655151,
+        1.291133165359497,
+        2.566528081893921,
+        1.1429061889648438,
+        14.866732597351074,
+        1.0318182706832886,
+        1.2466545104980469,
+        1.1117690801620483,
+        1.395853877067566,
+        1.8792537450790405,
+        1.0258898735046387,
+        1.0153846740722656,
+        1.6372947692871094,
+        2.011805295944214,
+        1.0006356239318848,
+        6.647388458251953,
+        9.576760292053223
+      ]
+    },
+    "T=5.0": {
+      "mean_pr": "46318.62",
+      "std_pr": "39076.176",
+      "prs": [
+        54846.5234375,
+        8582.7099609375,
+        73056.2421875,
+        2656.23388671875,
+        16235.548828125,
+        27848.59375,
+        19438.505859375,
+        29972.1875,
+        2658.706787109375,
+        75293.671875,
+        76277.890625,
+        104622.484375,
+        7905.646484375,
+        149579.5625,
+        22901.9375,
+        66540.7734375,
+        67306.6171875,
+        100731.9921875,
+        29802.861328125,
+        3818.947509765625,
+        29842.47265625,
+        57750.54296875,
+        22423.2578125,
+        12065.751953125,
+        31298.11328125,
+        14079.4755859375,
+        57162.796875,
+        2789.88818359375,
+        115273.0234375,
+        106795.703125
+      ]
+    },
+    "hidden_L0": {
+      "pr": 4.086602210998535,
+      "k90": 9
+    },
+    "hidden_L7": {
+      "pr": 8.169893264770508,
+      "k90": 15
+    },
+    "hidden_L14": {
+      "pr": 8.728177070617676,
+      "k90": 16
+    },
+    "hidden_L25": {
+      "pr": 10.794657707214355,
+      "k90": 17
+    },
+    "hidden_L34": {
+      "pr": 3.592137575149536,
+      "k90": 15
+    }
+  },
+  "exp4_qwen_antialign": {
+    "model": "Qwen2.5-7B-Instruct",
+    "n_wrong": 11,
+    "n_tested": 11,
+    "n_anti": 0,
+    "mean_cos": 0.5098257715051825,
+    "cos_values": [
+      0.5259489417076111,
+      0.4412585198879242,
+      0.5192983150482178,
+      0.44160887598991394,
+      0.5032389163970947,
+      0.45801103115081787,
+      0.5304268598556519,
+      0.43100103735923767,
+      0.5495064854621887,
+      0.4425772726535797,
+      0.7652072310447693
+    ],
+    "details": [
+      {
+        "prompt": "What is 347 + 289?",
+        "correct": "636",
+        "response": "To solve the problem \\(347 + 289\\), we can break i",
+        "cos_correction_reflection": 0.5259489417076111
+      },
+      {
+        "prompt": "What is 23 * 19?",
+        "correct": "437",
+        "response": "To solve the multiplication problem \\(23 \\times 19",
+        "cos_correction_reflection": 0.4412585198879242
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "correct": "435",
+        "response": "To solve the problem \\(891 - 456\\), we can perform",
+        "cos_correction_reflection": 0.5192983150482178
+      },
+      {
+        "prompt": "What is 17 * 23?",
+        "correct": "391",
+        "response": "To solve the multiplication problem \\(17 \\times 23",
+        "cos_correction_reflection": 0.44160887598991394
+      },
+      {
+        "prompt": "What is 256 + 389?",
+        "correct": "645",
+        "response": "To solve the problem of adding 256 and 389, we can",
+        "cos_correction_reflection": 0.5032389163970947
+      },
+      {
+        "prompt": "What is 15 * 17?",
+        "correct": "255",
+        "response": "To solve the problem of multiplying 15 by 17, we c",
+        "cos_correction_reflection": 0.45801103115081787
+      },
+      {
+        "prompt": "What is 999 - 572?",
+        "correct": "427",
+        "response": "To solve the problem \\(999 - 572\\), we can perform",
+        "cos_correction_reflection": 0.5304268598556519
+      },
+      {
+        "prompt": "What is 48 * 13?",
+        "correct": "624",
+        "response": "To solve the multiplication problem \\(48 \\times 13",
+        "cos_correction_reflection": 0.43100103735923767
+      },
+      {
+        "prompt": "How many r's in strawberry?",
+        "correct": "3",
+        "response": "There are three 'r's in the word \"strawberry\". The",
+        "cos_correction_reflection": 0.5495064854621887
+      },
+      {
+        "prompt": "How many s's in mississippi?",
+        "correct": "4",
+        "response": "There are four 's' in the word \"mississippi\". \n\nHe",
+        "cos_correction_reflection": 0.4425772726535797
+      },
+      {
+        "prompt": "A bat and ball cost $1.10. The bat costs $1 more than the ball. How much does the ball cost?",
+        "correct": "0.05",
+        "response": "Let's denote the cost of the ball as \\( x \\) dolla",
+        "cos_correction_reflection": 0.7652072310447693
+      }
+    ]
+  },
+  "exp5_within_arithmetic": {
+    "trivial_mean": 12.511251640319824,
+    "trivial_std": 1.5037649343280446,
+    "hard_mean": 22.481816482543945,
+    "hard_std": 3.0371222761492724,
+    "gap": 9.970564842224121,
+    "auc": 1.0,
+    "cohens_d": 4.16065117299088,
+    "details": {
+      "trivial": [
+        {
+          "prompt": "What is 1 + 1?",
+          "proj": 9.361003875732422,
+          "resp": "1 + 1 is **2**."
+        },
+        {
+          "prompt": "What is 2 + 2?",
+          "proj": 12.09393310546875,
+          "resp": "2 + 2 is **4**."
+        },
+        {
+          "prompt": "What is 5 + 5?",
+          "proj": 13.459360122680664,
+          "resp": "5 + 5 is **10**."
+        },
+        {
+          "prompt": "What is 2 * 2?",
+          "proj": 11.217920303344727,
+          "resp": "2 * 2 is **4**."
+        },
+        {
+          "prompt": "What is 3 * 3?",
+          "proj": 10.966354370117188,
+          "resp": "$3 \\times 3$ is **9**."
+        },
+        {
+          "prompt": "What is 10 + 10?",
+          "proj": 13.555662155151367,
+          "resp": "10 + 10 is **20**."
+        },
+        {
+          "prompt": "What is 100 - 50?",
+          "proj": 15.668581008911133,
+          "resp": "$100 - 50 = 50$"
+        },
+        {
+          "prompt": "What is 10 * 10?",
+          "proj": 12.122136116027832,
+          "resp": "$10 \\times 10 = 100$"
+        },
+        {
+          "prompt": "What is 6 + 6?",
+          "proj": 14.061375617980957,
+          "resp": "$6 + 6 = 12$"
+        },
+        {
+          "prompt": "What is 1 + 0?",
+          "proj": 12.032035827636719,
+          "resp": "$1 + 0 = 1$"
+        },
+        {
+          "prompt": "What is 0 + 0?",
+          "proj": 10.88017463684082,
+          "resp": "$0 + 0$ is **0**."
+        },
+        {
+          "prompt": "What is 5 * 2?",
+          "proj": 13.298213005065918,
+          "resp": "$5 \\times 2 = 10$"
+        },
+        {
+          "prompt": "What is 10 - 1?",
+          "proj": 13.645576477050781,
+          "resp": "$10 - 1 = 9$"
+        },
+        {
+          "prompt": "What is 3 + 3?",
+          "proj": 13.10759449005127,
+          "resp": "3 + 3 is **6**."
+        },
+        {
+          "prompt": "What is 4 * 4?",
+          "proj": 12.198853492736816,
+          "resp": "$4 \\times 4 = 16$"
+        }
+      ],
+      "hard": [
+        {
+          "prompt": "What is 347 + 289?",
+          "proj": 25.850208282470703,
+          "resp": "To find the sum of 347 and 289"
+        },
+        {
+          "prompt": "What is 23 * 19?",
+          "proj": 18.285888671875,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 891 - 456?",
+          "proj": 25.776033401489258,
+          "resp": "To find the difference between"
+        },
+        {
+          "prompt": "What is 17 * 23?",
+          "proj": 18.981849670410156,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 256 + 389?",
+          "proj": 25.455842971801758,
+          "resp": "To find the sum of 256 and 389"
+        },
+        {
+          "prompt": "What is 15 * 17?",
+          "proj": 17.819971084594727,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 999 - 572?",
+          "proj": 25.534088134765625,
+          "resp": "Here are a couple of ways to s"
+        },
+        {
+          "prompt": "What is 48 * 13?",
+          "proj": 19.638851165771484,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 167 + 894?",
+          "proj": 24.73571014404297,
+          "resp": "To find the sum of 167 and 894"
+        },
+        {
+          "prompt": "What is 73 * 8?",
+          "proj": 21.416996002197266,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 512 - 237?",
+          "proj": 25.782384872436523,
+          "resp": "Here are a couple of ways to s"
+        },
+        {
+          "prompt": "What is 29 * 31?",
+          "proj": 19.359909057617188,
+          "resp": "Here are a couple of ways to c"
+        },
+        {
+          "prompt": "What is 444 + 777?",
+          "proj": 24.372127532958984,
+          "resp": "Here's how to calculate $444 +"
+        },
+        {
+          "prompt": "What is 63 * 7?",
+          "proj": 20.155994415283203,
+          "resp": "Here are a few ways to calcula"
+        },
+        {
+          "prompt": "What is 1000 - 618?",
+          "proj": 24.061391830444336,
+          "resp": "To find the difference between"
+        }
+      ]
+    }
+  },
+  "format_control": {
+    "separated": 7,
+    "total": 7
+  },
+  "self_reflection": {
+    "gemma_4_e2b": {
+      "cosine_to_correction": -0.44,
+      "note": "anti-aligned across 5 failure types"
+    },
+    "qwen_7b": {
+      "cosine_to_correction": 0.51,
+      "note": "aligned"
+    }
+  }
+}

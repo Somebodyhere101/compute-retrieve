@@ -1,0 +1,20 @@
+{
+  "Qwen2.5-0.5B-Instruct": {
+    "calibration_auc": 0.9977777777777778,
+    "layer": 22,
+    "format_separated": 20,
+    "format_total": 20,
+    "reversed_separated": 20,
+    "reversed_total": 20,
+    "reversed_d": 8.478947779790655
+  },
+  "pythia-410m": {
+    "calibration_auc": 0.99,
+    "layer": 6,
+    "format_separated": 3,
+    "format_total": 20,
+    "reversed_separated": 20,
+    "reversed_total": 20,
+    "reversed_d": 2.824385833480603
+  }
+}

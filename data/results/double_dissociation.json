@@ -1,0 +1,9 @@
+{
+  "test_a": 0.27309523809523806,
+  "test_b": 0.91,
+  "cr_failures": 0.935,
+  "cos": -0.14188751578330994,
+  "n_correct": 140,
+  "n_wrong": 60,
+  "proven": false
+}

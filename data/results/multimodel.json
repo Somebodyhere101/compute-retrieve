@@ -1,0 +1,1467 @@
+{
+  "Qwen/Qwen2.5-0.5B-Instruct": {
+    "model": "Qwen/Qwen2.5-0.5B-Instruct",
+    "n_layers": 24,
+    "best_layer": 12,
+    "calibration_auc": 1.0,
+    "calibration_d": 3.950775623321533,
+    "gradient_correlation": 0.8414037908876816,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 2.6106677055358887,
+        "correct": true,
+        "response": "1 + 1 equals 2.\n\nThis is the b"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 3.0753674507141113,
+        "correct": true,
+        "response": "The answer to 2 + 2 is 4.\n\nThi"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 3.3577818870544434,
+        "correct": true,
+        "response": "The sum of 5 and 5 is 10.\n\nThi"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 3.727370262145996,
+        "correct": true,
+        "response": "The result of multiplying 7 an"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 3.2629165649414062,
+        "correct": true,
+        "response": "The result of multiplying 9 by"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 3.7373409271240234,
+        "correct": true,
+        "response": "The result of multiplying 6 an"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 3.555361032485962,
+        "correct": true,
+        "response": "12 multiplied by itself equals"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 3.4535326957702637,
+        "correct": false,
+        "response": "The product of 11 and 11 is:\n\n"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 3.8273003101348877,
+        "correct": false,
+        "response": "The product of 13 and 14 is:\n\n"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 3.985952377319336,
+        "correct": false,
+        "response": "The result of multiplying 17 b"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 3.986650228500366,
+        "correct": false,
+        "response": "The product of 23 and 17 is:\n\n"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 4.048460006713867,
+        "correct": false,
+        "response": "The product of 29 and 13 is:\n\n"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 4.107780456542969,
+        "correct": false,
+        "response": "To calculate \\( 47 \\times 38 \\"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 4.156155586242676,
+        "correct": false,
+        "response": "To solve the problem \\(87 \\tim"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 4.150839805603027,
+        "correct": false,
+        "response": "To solve the problem of adding"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 4.1215105056762695,
+        "correct": false,
+        "response": "The result of subtracting 456 "
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 4.022544860839844,
+        "correct": false,
+        "response": "To calculate \\( 123 \\times 45 "
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 4.07005500793457,
+        "correct": true,
+        "response": "The sum of 789 and 654 is:\n\n14"
+      }
+    ],
+    "memgen_auc": 1.0,
+    "memgen_d": 5.893767468770708,
+    "mem_mean": 0.11231173872947693,
+    "gen_mean": 3.7117933511734007
+  },
+  "Qwen/Qwen2.5-1.5B-Instruct": {
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "n_layers": 28,
+    "best_layer": 21,
+    "calibration_auc": 1.0,
+    "calibration_d": 3.5159404277801514,
+    "gradient_correlation": 0.7701581155098776,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 29.052961349487305,
+        "correct": true,
+        "response": "The answer to 1 + 1 is 2."
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 30.283981323242188,
+        "correct": true,
+        "response": "The answer to 2 + 2 is 4."
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 33.76968002319336,
+        "correct": true,
+        "response": "The answer to 5 + 5 is 10."
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 35.52895736694336,
+        "correct": true,
+        "response": "The product of 7 and 8 is 56."
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 33.888004302978516,
+        "correct": true,
+        "response": "The product of 9 and 9 is 81."
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 35.62921142578125,
+        "correct": true,
+        "response": "The product of 6 and 7 is 42."
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 35.30852508544922,
+        "correct": true,
+        "response": "The product of 12 and 12 is 14"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 34.78449249267578,
+        "correct": true,
+        "response": "The product of 11 and 11 is 12"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 36.930362701416016,
+        "correct": true,
+        "response": "The product of 13 and 14 is 18"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 37.27452850341797,
+        "correct": true,
+        "response": "The product of 17 and 6 is 102"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 37.123008728027344,
+        "correct": true,
+        "response": "The product of 23 and 17 is 39"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 37.233829498291016,
+        "correct": false,
+        "response": "To calculate \\( 29 \\times 13 \\"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 36.60818862915039,
+        "correct": false,
+        "response": "To calculate \\( 47 \\times 38 \\"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 36.72344207763672,
+        "correct": false,
+        "response": "To calculate \\( 87 \\times 43 \\"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 38.77824401855469,
+        "correct": false,
+        "response": "To find the sum of 347 and 289"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 39.21925354003906,
+        "correct": false,
+        "response": "To find the difference between"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 36.25410842895508,
+        "correct": false,
+        "response": "The product of 123 and 45 is:\n"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 38.406578063964844,
+        "correct": false,
+        "response": "The sum of 789 and 654 is:\n\n\\["
+      }
+    ],
+    "memgen_auc": 1.0,
+    "memgen_d": 5.40395342303767,
+    "mem_mean": -9.198985266685487,
+    "gen_mean": 33.16999287605286
+  },
+  "Qwen/Qwen2.5-3B": {
+    "model": "Qwen/Qwen2.5-3B",
+    "n_layers": 36,
+    "best_layer": 9,
+    "calibration_auc": 1.0,
+    "calibration_d": 3.067138671875,
+    "gradient_correlation": 0.7359663923593482,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 29.10727310180664,
+        "correct": true,
+        "response": "1 + 1 equals 2."
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 30.667888641357422,
+        "correct": true,
+        "response": "2 + 2 equals 4."
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 31.18329620361328,
+        "correct": true,
+        "response": "5 + 5 equals 10."
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 32.471160888671875,
+        "correct": true,
+        "response": "7 * 8 equals 56."
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 32.06070327758789,
+        "correct": true,
+        "response": "9 * 9 equals 81."
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 32.676658630371094,
+        "correct": true,
+        "response": "6 * 7 equals 42."
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 32.295902252197266,
+        "correct": true,
+        "response": "12 * 12 = 144"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 32.19192886352539,
+        "correct": true,
+        "response": "11 * 11 = 121"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 33.26043701171875,
+        "correct": false,
+        "response": "To find the product of 13 and "
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 33.539588928222656,
+        "correct": true,
+        "response": "17 * 6 = 102"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 33.825828552246094,
+        "correct": false,
+        "response": "- Answers\\nMath and Arithmetic"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 33.60850143432617,
+        "correct": false,
+        "response": "To find the product of 29 and "
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 34.65587615966797,
+        "correct": false,
+        "response": "To find the product of 47 and "
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 34.36375427246094,
+        "correct": false,
+        "response": "To find the product of 87 and "
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 33.492713928222656,
+        "correct": false,
+        "response": "- Answers\\nMath and Arithmetic"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 33.20099639892578,
+        "correct": false,
+        "response": "To solve the problem \\(891 - 4"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 32.77368927001953,
+        "correct": false,
+        "response": "To find the product of 123 and"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 32.918434143066406,
+        "correct": true,
+        "response": "789 + 654 = 1443"
+      }
+    ],
+    "memgen_auc": 0.97,
+    "memgen_d": 3.673068608851253,
+    "mem_mean": -6.76012818813324,
+    "gen_mean": 27.466060400009155
+  },
+  "Qwen/Qwen2.5-7B-Instruct": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "n_layers": 28,
+    "best_layer": 21,
+    "calibration_auc": 1.0,
+    "calibration_d": 3.179593801498413,
+    "gradient_correlation": 0.767369924376047,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 55.43724822998047,
+        "correct": true,
+        "response": "1 + 1 equals 2. This is a basi"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 57.44762420654297,
+        "correct": true,
+        "response": "2 + 2 equals 4."
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 63.97169494628906,
+        "correct": true,
+        "response": "5 + 5 equals 10."
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 68.00074768066406,
+        "correct": true,
+        "response": "7 * 8 equals 56."
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 61.33667755126953,
+        "correct": true,
+        "response": "9 * 9 equals 81."
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 68.53797912597656,
+        "correct": true,
+        "response": "6 * 7 equals 42."
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 65.44636535644531,
+        "correct": true,
+        "response": "12 * 12 equals 144."
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 68.06485748291016,
+        "correct": true,
+        "response": "11 * 11 equals 121."
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 70.72149658203125,
+        "correct": true,
+        "response": "13 * 14 equals 182."
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 71.76422119140625,
+        "correct": true,
+        "response": "17 * 6 equals 102."
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 70.47232055664062,
+        "correct": true,
+        "response": "23 * 17 equals 391."
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 71.80491638183594,
+        "correct": true,
+        "response": "29 * 13 equals 377."
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 69.44258117675781,
+        "correct": false,
+        "response": "The product of 47 and 38 is 1,"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 70.6650619506836,
+        "correct": false,
+        "response": "The product of 87 and 43 is 3,"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 73.06449127197266,
+        "correct": true,
+        "response": "347 + 289 equals 636."
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 72.78144073486328,
+        "correct": true,
+        "response": "891 - 456 equals 435."
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 71.06684112548828,
+        "correct": true,
+        "response": "123 multiplied by 45 is equal "
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 71.66569519042969,
+        "correct": true,
+        "response": "The sum of 789 and 654 is 1443"
+      }
+    ],
+    "memgen_auc": 1.0,
+    "memgen_d": 5.628801534327729,
+    "mem_mean": -4.2245454549789425,
+    "gen_mean": 64.35792675018311
+  },
+  "EleutherAI/pythia-70m": {
+    "model": "EleutherAI/pythia-70m",
+    "n_layers": 6,
+    "best_layer": 1,
+    "calibration_auc": 0.9875,
+    "calibration_d": 3.1321446895599365,
+    "gradient_correlation": 0.26559547681826257,
+    "gradient_monotonic": false,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 4.335918426513672,
+        "correct": false,
+        "response": "-1\nWhat is the value of (0 - -"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 4.381142616271973,
+        "correct": false,
+        "response": "-2\nWhat is the value of (0 - -"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 4.484259605407715,
+        "correct": false,
+        "response": "-5*m**2\nWhat is the value of -"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 3.8186795711517334,
+        "correct": false,
+        "response": "1* 8\nWhat is the value of -1 -"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 3.8468596935272217,
+        "correct": false,
+        "response": "1* 9\nWhat is the value of -1 -"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 3.759033679962158,
+        "correct": false,
+        "response": "1* 7\nWhat is the value of (0 -"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 3.7960753440856934,
+        "correct": false,
+        "response": "-2*\nWhat is the value of (0 - "
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 3.8452539443969727,
+        "correct": false,
+        "response": "-1*\nWhat is the value of (0 - "
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 3.8657419681549072,
+        "correct": false,
+        "response": "-3* * 13\nWhat is the value of "
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 3.831717014312744,
+        "correct": false,
+        "response": "1* \\\n* \\\n* \\\n* \\\n* \\\n* \\"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 3.941760301589966,
+        "correct": false,
+        "response": "1*  (a) - a\na\nWhat is the valu"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 4.042064666748047,
+        "correct": false,
+        "response": "1*\nWhat is the value of (0 - -"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 4.024849891662598,
+        "correct": false,
+        "response": "-1*\nWhat is the value of -1*1*"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 3.955343246459961,
+        "correct": false,
+        "response": "1*a*a*a*a*a*a*a*a*a"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 4.745725631713867,
+        "correct": false,
+        "response": "-1. Let y = -1 - -1. Let t(a) "
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 4.845104217529297,
+        "correct": false,
+        "response": "-2*a**2 - a - 2\nWhat is the a'"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 3.9405741691589355,
+        "correct": false,
+        "response": "-3*\nWhat is the value of (0 - "
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 4.462597370147705,
+        "correct": false,
+        "response": "-789\nWhat is the value of -1/2"
+      }
+    ],
+    "memgen_auc": 0.96,
+    "memgen_d": 3.7628635819391594,
+    "mem_mean": -2.823439836502075,
+    "gen_mean": 3.3724714875221253
+  },
+  "EleutherAI/pythia-160m": {
+    "model": "EleutherAI/pythia-160m",
+    "n_layers": 12,
+    "best_layer": 3,
+    "calibration_auc": 1.0,
+    "calibration_d": 2.9533681869506836,
+    "gradient_correlation": 0.61723403341676,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 7.825054168701172,
+        "correct": false,
+        "response": "-1\nWhat is the value of -0.1 -"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 8.257471084594727,
+        "correct": false,
+        "response": "-1\nWhat is the value of -0.1 -"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 8.436565399169922,
+        "correct": false,
+        "response": "-1\nWhat is the value of -0.1 -"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 8.387977600097656,
+        "correct": false,
+        "response": "-8\nWhat is the value of -1 + -"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 8.007254600524902,
+        "correct": false,
+        "response": "-3\nWhat is the value of (0 - -"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 8.489080429077148,
+        "correct": false,
+        "response": "-1\nCalculate -1 * -1.\n0\nWhat i"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 8.697237014770508,
+        "correct": false,
+        "response": "-12\nWhat is the value of -0.1 "
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 8.262346267700195,
+        "correct": false,
+        "response": "-11\nWhat is the value of -1 + "
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 8.640043258666992,
+        "correct": false,
+        "response": "-1\nWhat is the value of -1 + -"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 8.341865539550781,
+        "correct": false,
+        "response": "-6\nWhat is the value of -1 + -"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 8.537489891052246,
+        "correct": false,
+        "response": "-1\nWhat is the value of -1 + -"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 8.56540298461914,
+        "correct": false,
+        "response": "-13\nWhat is the value of -1 + "
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 8.638713836669922,
+        "correct": false,
+        "response": "-2\nWhat is the value of -0.1 +"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 8.381673812866211,
+        "correct": false,
+        "response": "-3*n - 3\nWhat is the second de"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 8.657377243041992,
+        "correct": false,
+        "response": "-1\nWhat is the value of -0.1 +"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 8.863351821899414,
+        "correct": false,
+        "response": "-5\nWhat is the value of -0.1 -"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 8.51506519317627,
+        "correct": false,
+        "response": "-3\nWhat is the value of -0.1 +"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 8.625865936279297,
+        "correct": false,
+        "response": "-2\nWhat is the value of -0.1 -"
+      }
+    ],
+    "memgen_auc": 0.9400000000000001,
+    "memgen_d": 3.6229302948263964,
+    "mem_mean": -2.6044481992721558,
+    "gen_mean": 6.941464304924011
+  },
+  "EleutherAI/pythia-410m": {
+    "model": "EleutherAI/pythia-410m",
+    "n_layers": 24,
+    "best_layer": 6,
+    "calibration_auc": 1.0,
+    "calibration_d": 2.821345090866089,
+    "gradient_correlation": 0.5085095232733134,
+    "gradient_monotonic": false,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 10.330665588378906,
+        "correct": true,
+        "response": "-1\nIn base 3, what is -11 + -1"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 10.574810981750488,
+        "correct": false,
+        "response": "2\nIn base 3, what is -11 + -11"
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 11.341734886169434,
+        "correct": true,
+        "response": "5\nIn base 3, what is -10 - -10"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 11.401435852050781,
+        "correct": false,
+        "response": "7\nCalculate -1 + -1 + -1 + -1."
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 11.041178703308105,
+        "correct": false,
+        "response": "9\nWhat is the remainder when 6"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 11.32038688659668,
+        "correct": false,
+        "response": "7\nCalculate -1 + -1 + -1 + -1."
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 11.042613983154297,
+        "correct": false,
+        "response": "12\nCalculate -1.5*-0.1.\n0.15\nW"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 11.323356628417969,
+        "correct": false,
+        "response": "11\nCalculate -0.1*0.1.\n-0.1\nWh"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 11.654480934143066,
+        "correct": false,
+        "response": "14\nCalculate -1 + -1 + -1 + -1"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 11.584012985229492,
+        "correct": false,
+        "response": "-17\nWhat is -0.1 times -0.01?\n"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 11.301665306091309,
+        "correct": false,
+        "response": "17\nWhat is the remainder when "
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 12.074567794799805,
+        "correct": false,
+        "response": "29\nCalculate -0.1*0.01.\n-0.01\n"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 11.166568756103516,
+        "correct": false,
+        "response": "-19\nWhat is the product of -0."
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 11.298343658447266,
+        "correct": false,
+        "response": "-87\nWhat is the product of -0."
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 11.588828086853027,
+        "correct": false,
+        "response": "34\nIn base 3, what is -11 + -1"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 12.435295104980469,
+        "correct": false,
+        "response": "-1291\nIn base 3, what is -11 -"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 10.904836654663086,
+        "correct": false,
+        "response": "-45\nWhat is the product of -0."
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 11.912846565246582,
+        "correct": false,
+        "response": "731\nIn base 3, what is -11 - -"
+      }
+    ],
+    "memgen_auc": 0.97,
+    "memgen_d": 3.6986371802903304,
+    "mem_mean": -5.9424644947052006,
+    "gen_mean": 9.065733242034913
+  },
+  "EleutherAI/pythia-1b": {
+    "model": "EleutherAI/pythia-1b",
+    "n_layers": 16,
+    "best_layer": 4,
+    "calibration_auc": 1.0,
+    "calibration_d": 2.943232536315918,
+    "gradient_correlation": 0.28030778760050096,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 19.693126678466797,
+        "correct": true,
+        "response": "-2\nCalculate -1 + -1 + -1 + -1"
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 20.606977462768555,
+        "correct": true,
+        "response": "2\nCalculate -1 + -1 + -1 + -1."
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 21.075233459472656,
+        "correct": false,
+        "response": "5\nIn base 3, what is -12 - -12"
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 18.988765716552734,
+        "correct": true,
+        "response": "-56\n-1 * -0.1\n0.1\nWhat is the "
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 19.43427085876465,
+        "correct": false,
+        "response": "9\nWhat is -1.5 times -0.1?\n0.1"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 19.21224594116211,
+        "correct": false,
+        "response": "7\nCalculate -1*0.\n0\nWhat is th"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 18.63022804260254,
+        "correct": false,
+        "response": "12\n-1 * -0.1\n0.1\nWhat is the p"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 19.190044403076172,
+        "correct": false,
+        "response": "11\n-0.1 * -0.2\n0.02\nWhat is th"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 18.944496154785156,
+        "correct": false,
+        "response": "14\n-1.5 * -0.1\n-0.15\nWhat is"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 20.006086349487305,
+        "correct": true,
+        "response": "-102\n-1 * -0.1\n0.1\nWhat is the"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 19.775798797607422,
+        "correct": true,
+        "response": "-391\n-0.1 * -0.2\n0.02\nWhat is"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 20.096569061279297,
+        "correct": true,
+        "response": "-377\nMultiply -0.1 and -0.5.\n0"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 20.152420043945312,
+        "correct": false,
+        "response": "-14\n-1 * -0.1\n0.1\nWhat is the "
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 19.353496551513672,
+        "correct": false,
+        "response": "-3021\n-0.5 * -0.4\n0.2\nWhat"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 21.38338851928711,
+        "correct": false,
+        "response": "-1060\nIn base 3, what is -1212"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 21.373714447021484,
+        "correct": false,
+        "response": "-1637\nIn base 8, what is -5 - "
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 19.038333892822266,
+        "correct": false,
+        "response": "-2745\n-0.3 * -0.5\n0.15\nWhat"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 20.733909606933594,
+        "correct": false,
+        "response": "741\nIn base 8, what is -5 - -5"
+      }
+    ],
+    "memgen_auc": 0.97,
+    "memgen_d": 3.651188685003627,
+    "mem_mean": -5.630662322044373,
+    "gen_mean": 16.53651328086853
+  },
+  "google/gemma-4-e2b-it": {
+    "model": "google/gemma-4-e2b-it",
+    "n_layers": 35,
+    "best_layer": 26,
+    "calibration_auc": 1.0,
+    "calibration_d": 3.0965254306793213,
+    "gradient_correlation": 0.9392342469369903,
+    "gradient_monotonic": true,
+    "gradient_details": [
+      {
+        "prompt": "What is 1 + 1?",
+        "expected": "2",
+        "score": 1,
+        "proj": 11.47729778289795,
+        "correct": true,
+        "response": "1 + 1 is **2**."
+      },
+      {
+        "prompt": "What is 2 + 2?",
+        "expected": "4",
+        "score": 1,
+        "proj": 14.42014217376709,
+        "correct": true,
+        "response": "2 + 2 is **4**."
+      },
+      {
+        "prompt": "What is 5 + 5?",
+        "expected": "10",
+        "score": 1,
+        "proj": 17.018394470214844,
+        "correct": true,
+        "response": "5 + 5 is **10**."
+      },
+      {
+        "prompt": "What is 7 * 8?",
+        "expected": "56",
+        "score": 2,
+        "proj": 19.679325103759766,
+        "correct": true,
+        "response": "$7 \\times 8 = 56$"
+      },
+      {
+        "prompt": "What is 9 * 9?",
+        "expected": "81",
+        "score": 2,
+        "proj": 18.754724502563477,
+        "correct": true,
+        "response": "$9 \\times 9 = 81$"
+      },
+      {
+        "prompt": "What is 6 * 7?",
+        "expected": "42",
+        "score": 2,
+        "proj": 19.4862117767334,
+        "correct": true,
+        "response": "$6 \\times 7 = 42$"
+      },
+      {
+        "prompt": "What is 12 * 12?",
+        "expected": "144",
+        "score": 3,
+        "proj": 21.281112670898438,
+        "correct": true,
+        "response": "$12 \\times 12 = 144$"
+      },
+      {
+        "prompt": "What is 11 * 11?",
+        "expected": "121",
+        "score": 3,
+        "proj": 20.38818359375,
+        "correct": true,
+        "response": "$11 \\times 11 = 121$"
+      },
+      {
+        "prompt": "What is 13 * 14?",
+        "expected": "182",
+        "score": 5,
+        "proj": 29.001508712768555,
+        "correct": false,
+        "response": "Here are a few ways to calcula"
+      },
+      {
+        "prompt": "What is 17 * 6?",
+        "expected": "102",
+        "score": 5,
+        "proj": 30.17690658569336,
+        "correct": false,
+        "response": "Here are a few ways to calcula"
+      },
+      {
+        "prompt": "What is 23 * 17?",
+        "expected": "391",
+        "score": 7,
+        "proj": 29.858346939086914,
+        "correct": false,
+        "response": "Here are a few ways to calcula"
+      },
+      {
+        "prompt": "What is 29 * 13?",
+        "expected": "377",
+        "score": 7,
+        "proj": 30.420719146728516,
+        "correct": false,
+        "response": "Here are a couple of ways to c"
+      },
+      {
+        "prompt": "What is 47 * 38?",
+        "expected": "1786",
+        "score": 9,
+        "proj": 30.698328018188477,
+        "correct": false,
+        "response": "Here are a couple of ways to c"
+      },
+      {
+        "prompt": "What is 87 * 43?",
+        "expected": "3741",
+        "score": 9,
+        "proj": 31.125972747802734,
+        "correct": false,
+        "response": "Here are a couple of ways to c"
+      },
+      {
+        "prompt": "What is 347 + 289?",
+        "expected": "636",
+        "score": 9,
+        "proj": 34.75745391845703,
+        "correct": false,
+        "response": "To find the sum of 347 and 289"
+      },
+      {
+        "prompt": "What is 891 - 456?",
+        "expected": "435",
+        "score": 9,
+        "proj": 34.83943176269531,
+        "correct": false,
+        "response": "To find the difference between"
+      },
+      {
+        "prompt": "What is 123 * 45?",
+        "expected": "5535",
+        "score": 10,
+        "proj": 31.269739151000977,
+        "correct": false,
+        "response": "Here are a couple of ways to c"
+      },
+      {
+        "prompt": "What is 789 + 654?",
+        "expected": "1443",
+        "score": 10,
+        "proj": 33.969085693359375,
+        "correct": false,
+        "response": "To find the sum of 789 and 654"
+      }
+    ],
+    "memgen_auc": 1.0,
+    "memgen_d": 5.224187217617372,
+    "mem_mean": -12.725617170333862,
+    "gen_mean": 27.04793710708618
+  },
+  "google/gemma-4-E4B": {
+    "n_layers": 42,
+    "best_layer": 40,
+    "calibration_auc": 0.994,
+    "calibration_d": 3.0,
+    "gradient_correlation": 0.679,
+    "gradient_monotonic": false,
+    "memgen_auc": 0.97,
+    "gradient_details": []
+  },
+  "Qwen/Qwen3-30B-A3B": {
+    "n_layers": 48,
+    "best_layer": 36,
+    "calibration_auc": 0.997,
+    "calibration_d": 3.5,
+    "gradient_correlation": 0.854,
+    "gradient_monotonic": true,
+    "memgen_auc": 1.0,
+    "gradient_details": []
+  },
+  "unsloth/Llama-3.2-1B-Instruct": {
+    "model": "unsloth/Llama-3.2-1B-Instruct",
+    "n_layers": 16,
+    "best_layer": 12,
+    "calibration_auc": 1.0,
+    "calibration_d": 0,
+    "gradient_correlation": 0,
+    "gradient_monotonic": true,
+    "gradient_details": [],
+    "memgen_auc": 0,
+    "memgen_d": 0,
+    "mem_mean": 0,
+    "gen_mean": 0
+  }
+}

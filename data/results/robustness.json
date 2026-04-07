@@ -1,0 +1,979 @@
+{
+  "gap1_robustness": {
+    "5": {
+      "mean_cos_to_full": 0.8130591124296188,
+      "std": 0.09355533564695508,
+      "min": 0.5350692272186279,
+      "pairwise_mean": 0.6629194667464808,
+      "n_trials": 20
+    },
+    "10": {
+      "mean_cos_to_full": 0.910469514131546,
+      "std": 0.035151977000628123,
+      "min": 0.8276112079620361,
+      "pairwise_mean": 0.8299502705272875,
+      "n_trials": 20
+    },
+    "15": {
+      "mean_cos_to_full": 0.9390784054994583,
+      "std": 0.017882831374932115,
+      "min": 0.8936922550201416,
+      "pairwise_mean": 0.8796825659902472,
+      "n_trials": 20
+    },
+    "20": {
+      "mean_cos_to_full": 0.9645657122135163,
+      "std": 0.013145772502907105,
+      "min": 0.9277360439300537,
+      "pairwise_mean": 0.93201551186411,
+      "n_trials": 20
+    },
+    "30": {
+      "mean_cos_to_full": 0.9813220739364624,
+      "std": 0.007054251937091143,
+      "min": 0.9637757539749146,
+      "pairwise_mean": 0.9622531781071111,
+      "n_trials": 20
+    },
+    "cross_domain": {
+      "arith_vs_logic": 0.08435127139091492,
+      "arith_vs_causal": 0.3318706154823303,
+      "logic_vs_causal": -0.18476088345050812,
+      "arith_vs_full": 0.8666426539421082,
+      "logic_vs_full": 0.4371047019958496,
+      "causal_vs_full": 0.44840458035469055,
+      "arith_axis_on_logic_auc": 0.8520710059171598
+    }
+  },
+  "gap2_token_dynamics": [
+    {
+      "prompt": "What is 347 + 289?",
+      "expected_mode": "compute",
+      "output": "To find the sum of 347 and 289, you can add them column by c",
+      "mean_proj": 10.387319259643554,
+      "std_proj": 4.985695813179889,
+      "min_proj": 3.416233539581299,
+      "max_proj": 25.850208282470703,
+      "mode_consistency": 1.0,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "To",
+          "token_id": 2021,
+          "projection": 25.850208282470703,
+          "entropy": 0.41591212153434753
+        },
+        {
+          "step": 1,
+          "token": " find",
+          "token_id": 1586,
+          "projection": 13.708934783935547,
+          "entropy": 9.783880159375258e-06
+        },
+        {
+          "step": 2,
+          "token": " the",
+          "token_id": 506,
+          "projection": 10.894783973693848,
+          "entropy": 5.362016941568015e-10
+        },
+        {
+          "step": 3,
+          "token": " sum",
+          "token_id": 2324,
+          "projection": 14.829631805419922,
+          "entropy": 1.286493828134283e-10
+        },
+        {
+          "step": 4,
+          "token": " of",
+          "token_id": 529,
+          "projection": 12.639363288879395,
+          "entropy": 3.8518868650250226e-10
+        },
+        {
+          "step": 5,
+          "token": " ",
+          "token_id": 236743,
+          "projection": 10.826648712158203,
+          "entropy": 0.06442467868328094
+        },
+        {
+          "step": 6,
+          "token": "3",
+          "token_id": 236800,
+          "projection": 5.875051498413086,
+          "entropy": 5.945022807374301e-10
+        },
+        {
+          "step": 7,
+          "token": "4",
+          "token_id": 236812,
+          "projection": 4.206088066101074,
+          "entropy": 9.649191445859628e-10
+        },
+        {
+          "step": 8,
+          "token": "7",
+          "token_id": 236832,
+          "projection": 3.9633634090423584,
+          "entropy": 4.85065820843289e-10
+        },
+        {
+          "step": 9,
+          "token": " and",
+          "token_id": 532,
+          "projection": 9.534512519836426,
+          "entropy": 5.89756564295385e-05
+        },
+        {
+          "step": 10,
+          "token": " ",
+          "token_id": 236743,
+          "projection": 6.585425853729248,
+          "entropy": 8.279660512755527e-09
+        },
+        {
+          "step": 11,
+          "token": "2",
+          "token_id": 236778,
+          "projection": 3.501955270767212,
+          "entropy": 9.234266684643444e-09
+        },
+        {
+          "step": 12,
+          "token": "8",
+          "token_id": 236828,
+          "projection": 4.629508972167969,
+          "entropy": 1.0410678541461493e-08
+        },
+        {
+          "step": 13,
+          "token": "9",
+          "token_id": 236819,
+          "projection": 3.416233539581299,
+          "entropy": 1.7711324629132719e-09
+        },
+        {
+          "step": 14,
+          "token": ",",
+          "token_id": 236764,
+          "projection": 13.117735862731934,
+          "entropy": 2.531198504129861e-07
+        }
+      ]
+    },
+    {
+      "prompt": "What is 23 times 17?",
+      "expected_mode": "compute",
+      "output": "Here are a couple of ways to calculate $23 \\times 17$:\n\n**Me",
+      "mean_proj": 9.032850551605225,
+      "std_proj": 3.1805942683762534,
+      "min_proj": 3.566425323486328,
+      "max_proj": 19.17006492614746,
+      "mode_consistency": 1.0,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "Here",
+          "token_id": 8291,
+          "projection": 19.17006492614746,
+          "entropy": 0.002140612341463566
+        },
+        {
+          "step": 1,
+          "token": " are",
+          "token_id": 659,
+          "projection": 10.904296875,
+          "entropy": 0.0001251266512554139
+        },
+        {
+          "step": 2,
+          "token": " a",
+          "token_id": 496,
+          "projection": 8.008830070495605,
+          "entropy": 0.00019011551921721548
+        },
+        {
+          "step": 3,
+          "token": " couple",
+          "token_id": 4628,
+          "projection": 9.099803924560547,
+          "entropy": 0.494243860244751
+        },
+        {
+          "step": 4,
+          "token": " of",
+          "token_id": 529,
+          "projection": 6.40018367767334,
+          "entropy": 7.423554393426457e-08
+        },
+        {
+          "step": 5,
+          "token": " ways",
+          "token_id": 4861,
+          "projection": 10.234949111938477,
+          "entropy": 3.595889381813322e-07
+        },
+        {
+          "step": 6,
+          "token": " to",
+          "token_id": 531,
+          "projection": 8.663887023925781,
+          "entropy": 8.007938201437526e-10
+        },
+        {
+          "step": 7,
+          "token": " calculate",
+          "token_id": 9279,
+          "projection": 12.636356353759766,
+          "entropy": 8.475904178339988e-05
+        },
+        {
+          "step": 8,
+          "token": " $",
+          "token_id": 609,
+          "projection": 9.624011039733887,
+          "entropy": 0.5169750452041626
+        },
+        {
+          "step": 9,
+          "token": "2",
+          "token_id": 236778,
+          "projection": 5.622375011444092,
+          "entropy": 1.8412361413311373e-08
+        },
+        {
+          "step": 10,
+          "token": "3",
+          "token_id": 236800,
+          "projection": 3.566425323486328,
+          "entropy": 1.2967690921072972e-08
+        },
+        {
+          "step": 11,
+          "token": " \\",
+          "token_id": 621,
+          "projection": 7.78798770904541,
+          "entropy": 2.1633679352817126e-05
+        },
+        {
+          "step": 12,
+          "token": "times",
+          "token_id": 3841,
+          "projection": 7.552992343902588,
+          "entropy": 1.0036501407739706e-05
+        },
+        {
+          "step": 13,
+          "token": " ",
+          "token_id": 236743,
+          "projection": 5.973010540008545,
+          "entropy": 1.4687946414682074e-09
+        },
+        {
+          "step": 14,
+          "token": "1",
+          "token_id": 236770,
+          "projection": 5.3587141036987305,
+          "entropy": 6.043255229570832e-09
+        }
+      ]
+    },
+    {
+      "prompt": "All blorks are snargs. Ted is a blork. Is Ted a snarg?",
+      "expected_mode": "compute",
+      "output": "Yes, Ted is a snarg.\n\nHere's the logic:\n\n1. **Premise 1:** A",
+      "mean_proj": 8.711510729789733,
+      "std_proj": 4.702076662837881,
+      "min_proj": 1.2170006036758423,
+      "max_proj": 17.43431854248047,
+      "mode_consistency": 1.0,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "Yes",
+          "token_id": 10784,
+          "projection": 16.283727645874023,
+          "entropy": 0.01828143559396267
+        },
+        {
+          "step": 1,
+          "token": ",",
+          "token_id": 236764,
+          "projection": 8.335738182067871,
+          "entropy": 0.0026100825052708387
+        },
+        {
+          "step": 2,
+          "token": " Ted",
+          "token_id": 29076,
+          "projection": 3.8404486179351807,
+          "entropy": 0.10810457170009613
+        },
+        {
+          "step": 3,
+          "token": " is",
+          "token_id": 563,
+          "projection": 4.500286102294922,
+          "entropy": 1.0519070857417656e-11
+        },
+        {
+          "step": 4,
+          "token": " a",
+          "token_id": 496,
+          "projection": 1.2170006036758423,
+          "entropy": 1.726301068240288e-12
+        },
+        {
+          "step": 5,
+          "token": " sn",
+          "token_id": 4801,
+          "projection": 2.9622578620910645,
+          "entropy": 2.8536628633446526e-06
+        },
+        {
+          "step": 6,
+          "token": "arg",
+          "token_id": 1187,
+          "projection": 3.0086545944213867,
+          "entropy": 2.2818658421130955e-11
+        },
+        {
+          "step": 7,
+          "token": ".",
+          "token_id": 236761,
+          "projection": 8.584040641784668,
+          "entropy": 1.0632964994594651e-11
+        },
+        {
+          "step": 8,
+          "token": "\n\n",
+          "token_id": 108,
+          "projection": 11.790349960327148,
+          "entropy": 3.1063950700627174e-06
+        },
+        {
+          "step": 9,
+          "token": "Here",
+          "token_id": 8291,
+          "projection": 17.42970848083496,
+          "entropy": 0.024421509355306625
+        },
+        {
+          "step": 10,
+          "token": "'",
+          "token_id": 236789,
+          "projection": 13.206995010375977,
+          "entropy": 0.00017248530639335513
+        },
+        {
+          "step": 11,
+          "token": "s",
+          "token_id": 236751,
+          "projection": 2.7210049629211426,
+          "entropy": 8.27333969562194e-13
+        },
+        {
+          "step": 12,
+          "token": " the",
+          "token_id": 506,
+          "projection": 13.806449890136719,
+          "entropy": 0.5098127126693726
+        },
+        {
+          "step": 13,
+          "token": " logic",
+          "token_id": 13179,
+          "projection": 17.43431854248047,
+          "entropy": 0.17751699686050415
+        },
+        {
+          "step": 14,
+          "token": ":",
+          "token_id": 236787,
+          "projection": 14.847469329833984,
+          "entropy": 0.0002927510649897158
+        }
+      ]
+    },
+    {
+      "prompt": "If it takes 3 painters 6 hours, how long for 9 painters?",
+      "expected_mode": "compute",
+      "output": "Here's how to solve this problem:\n\n**Understanding the Relat",
+      "mean_proj": 8.210912322998047,
+      "std_proj": 4.9479001026893625,
+      "min_proj": -0.48252570629119873,
+      "max_proj": 20.290822982788086,
+      "mode_consistency": 0.96,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "Here",
+          "token_id": 8291,
+          "projection": 20.290822982788086,
+          "entropy": 0.2631034851074219
+        },
+        {
+          "step": 1,
+          "token": "'",
+          "token_id": 236789,
+          "projection": 13.961442947387695,
+          "entropy": 0.028473613783717155
+        },
+        {
+          "step": 2,
+          "token": "s",
+          "token_id": 236751,
+          "projection": 5.001679420471191,
+          "entropy": 8.452709886197507e-12
+        },
+        {
+          "step": 3,
+          "token": " how",
+          "token_id": 1217,
+          "projection": 14.885915756225586,
+          "entropy": 9.59277713263873e-07
+        },
+        {
+          "step": 4,
+          "token": " to",
+          "token_id": 531,
+          "projection": 10.135869979858398,
+          "entropy": 1.636782485547883e-06
+        },
+        {
+          "step": 5,
+          "token": " solve",
+          "token_id": 8974,
+          "projection": 14.300141334533691,
+          "entropy": 2.8753859737662424e-07
+        },
+        {
+          "step": 6,
+          "token": " this",
+          "token_id": 672,
+          "projection": 7.7933526039123535,
+          "entropy": 0.07870430499315262
+        },
+        {
+          "step": 7,
+          "token": " problem",
+          "token_id": 2608,
+          "projection": 11.115093231201172,
+          "entropy": 0.03684582561254501
+        },
+        {
+          "step": 8,
+          "token": ":",
+          "token_id": 236787,
+          "projection": 11.406730651855469,
+          "entropy": 0.3212834894657135
+        },
+        {
+          "step": 9,
+          "token": "\n\n",
+          "token_id": 108,
+          "projection": 9.815752029418945,
+          "entropy": 6.366010438796366e-07
+        },
+        {
+          "step": 10,
+          "token": "**",
+          "token_id": 1018,
+          "projection": 11.599784851074219,
+          "entropy": 0.10474564135074615
+        },
+        {
+          "step": 11,
+          "token": "Understanding",
+          "token_id": 76066,
+          "projection": 14.43994140625,
+          "entropy": 0.0407399907708168
+        },
+        {
+          "step": 12,
+          "token": " the",
+          "token_id": 506,
+          "projection": 0.36453306674957275,
+          "entropy": 4.670452256050339e-07
+        },
+        {
+          "step": 13,
+          "token": " Relationship",
+          "token_id": 53811,
+          "projection": 9.804132461547852,
+          "entropy": 0.2246718555688858
+        },
+        {
+          "step": 14,
+          "token": "**",
+          "token_id": 1018,
+          "projection": 6.1286163330078125,
+          "entropy": 0.02244064025580883
+        }
+      ]
+    },
+    {
+      "prompt": "The capital of France is",
+      "expected_mode": "retrieve",
+      "output": "The capital of France is **Paris**.<turn|><turn|><turn|><tur",
+      "mean_proj": -1.7588737046017366,
+      "std_proj": 4.186592425368306,
+      "min_proj": -11.811969757080078,
+      "max_proj": 2.149691581726074,
+      "mode_consistency": 0.4117647058823529,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "The",
+          "token_id": 818,
+          "projection": -11.811969757080078,
+          "entropy": 7.886634989517916e-08
+        },
+        {
+          "step": 1,
+          "token": " capital",
+          "token_id": 5279,
+          "projection": -8.406856536865234,
+          "entropy": 1.1609074812568565e-11
+        },
+        {
+          "step": 2,
+          "token": " of",
+          "token_id": 529,
+          "projection": -5.366168022155762,
+          "entropy": 1.2807251437152445e-07
+        },
+        {
+          "step": 3,
+          "token": " France",
+          "token_id": 7001,
+          "projection": -7.107478618621826,
+          "entropy": 5.002577171953071e-11
+        },
+        {
+          "step": 4,
+          "token": " is",
+          "token_id": 563,
+          "projection": -3.843926191329956,
+          "entropy": 1.5374945760981973e-10
+        },
+        {
+          "step": 5,
+          "token": " **",
+          "token_id": 5213,
+          "projection": -2.802389144897461,
+          "entropy": 1.9243957183334715e-07
+        },
+        {
+          "step": 6,
+          "token": "Paris",
+          "token_id": 50429,
+          "projection": -4.091988563537598,
+          "entropy": 9.110130705369812e-11
+        },
+        {
+          "step": 7,
+          "token": "**.",
+          "token_id": 84750,
+          "projection": 0.8348393440246582,
+          "entropy": 6.6008953858442965e-09
+        },
+        {
+          "step": 8,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 1.153489351272583,
+          "entropy": 6.521591444652586e-08
+        },
+        {
+          "step": 9,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 0.7129673957824707,
+          "entropy": 2.1058108146121413e-08
+        },
+        {
+          "step": 10,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 0.7906186580657959,
+          "entropy": 0.0006058064755052328
+        },
+        {
+          "step": 11,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 0.6212958693504333,
+          "entropy": 3.0304465293884277
+        },
+        {
+          "step": 12,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 1.345820665359497,
+          "entropy": 6.42527437210083
+        },
+        {
+          "step": 13,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 1.889366626739502,
+          "entropy": 0.5961692333221436
+        },
+        {
+          "step": 14,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 2.149691581726074,
+          "entropy": 0.5035865902900696
+        }
+      ]
+    },
+    {
+      "prompt": "Shakespeare wrote Romeo and",
+      "expected_mode": "retrieve",
+      "output": "Shakespeare wrote **Romeo and Juliet**.<turn|><turn|><turn|>",
+      "mean_proj": -2.689840546676091,
+      "std_proj": 3.802789556305928,
+      "min_proj": -11.68452262878418,
+      "max_proj": 1.218181848526001,
+      "mode_consistency": 0.7857142857142857,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "Shakespeare",
+          "token_id": 157092,
+          "projection": -11.68452262878418,
+          "entropy": 0.004178197588771582
+        },
+        {
+          "step": 1,
+          "token": " wrote",
+          "token_id": 7971,
+          "projection": -6.3587141036987305,
+          "entropy": 8.914671525417361e-07
+        },
+        {
+          "step": 2,
+          "token": " **",
+          "token_id": 5213,
+          "projection": -7.8208327293396,
+          "entropy": 0.002153309527784586
+        },
+        {
+          "step": 3,
+          "token": "Romeo",
+          "token_id": 231194,
+          "projection": -7.510578155517578,
+          "entropy": 4.70161154453308e-08
+        },
+        {
+          "step": 4,
+          "token": " and",
+          "token_id": 532,
+          "projection": -0.9951828718185425,
+          "entropy": 2.1691114397981437e-06
+        },
+        {
+          "step": 5,
+          "token": " Juliet",
+          "token_id": 93560,
+          "projection": 0.19343900680541992,
+          "entropy": 5.277882131338174e-09
+        },
+        {
+          "step": 6,
+          "token": "**.",
+          "token_id": 84750,
+          "projection": -1.0635185241699219,
+          "entropy": 7.708396879024804e-06
+        },
+        {
+          "step": 7,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": -1.435722827911377,
+          "entropy": 3.3954620448639616e-06
+        },
+        {
+          "step": 8,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": -1.2902860641479492,
+          "entropy": 0.0013771289959549904
+        },
+        {
+          "step": 9,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": -1.0110344886779785,
+          "entropy": 0.0025162447709590197
+        },
+        {
+          "step": 10,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": -0.4883708953857422,
+          "entropy": 0.08954641968011856
+        },
+        {
+          "step": 11,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": -0.15886664390563965,
+          "entropy": 3.561263084411621
+        },
+        {
+          "step": 12,
+          "token": "<turn|>",
+          "token_id": 106,
+          "projection": 0.7482414245605469,
+          "entropy": 0.8137179017066956
+        },
+        {
+          "step": 13,
+          "token": "<eos>",
+          "token_id": 1,
+          "projection": 1.218181848526001,
+          "entropy": 0.7284694910049438
+        }
+      ]
+    },
+    {
+      "prompt": "The speed of light is approximately",
+      "expected_mode": "retrieve",
+      "output": "The speed of light in a vacuum is approximately **299,792,45",
+      "mean_proj": -3.822267241477966,
+      "std_proj": 3.675451191236275,
+      "min_proj": -16.586153030395508,
+      "max_proj": -0.3707454204559326,
+      "mode_consistency": 1.0,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "The",
+          "token_id": 818,
+          "projection": -16.586153030395508,
+          "entropy": 2.7352878532838076e-05
+        },
+        {
+          "step": 1,
+          "token": " speed",
+          "token_id": 4249,
+          "projection": -10.471138000488281,
+          "entropy": 0.0006209202110767365
+        },
+        {
+          "step": 2,
+          "token": " of",
+          "token_id": 529,
+          "projection": -7.513867378234863,
+          "entropy": 2.3417355166088782e-08
+        },
+        {
+          "step": 3,
+          "token": " light",
+          "token_id": 2214,
+          "projection": -8.298633575439453,
+          "entropy": 1.0556556739871326e-09
+        },
+        {
+          "step": 4,
+          "token": " in",
+          "token_id": 528,
+          "projection": -5.79705286026001,
+          "entropy": 0.0004419689066708088
+        },
+        {
+          "step": 5,
+          "token": " a",
+          "token_id": 496,
+          "projection": -5.528014183044434,
+          "entropy": 1.4423905668081716e-05
+        },
+        {
+          "step": 6,
+          "token": " vacuum",
+          "token_id": 16954,
+          "projection": -3.489725351333618,
+          "entropy": 0.6172982454299927
+        },
+        {
+          "step": 7,
+          "token": " is",
+          "token_id": 563,
+          "projection": -5.659018039703369,
+          "entropy": 0.1142946183681488
+        },
+        {
+          "step": 8,
+          "token": " approximately",
+          "token_id": 8296,
+          "projection": -5.717702865600586,
+          "entropy": 0.48058295249938965
+        },
+        {
+          "step": 9,
+          "token": " **",
+          "token_id": 5213,
+          "projection": -0.6562027931213379,
+          "entropy": 0.22597558796405792
+        },
+        {
+          "step": 10,
+          "token": "2",
+          "token_id": 236778,
+          "projection": -0.8817843198776245,
+          "entropy": 0.0826757550239563
+        },
+        {
+          "step": 11,
+          "token": "9",
+          "token_id": 236819,
+          "projection": -1.6017086505889893,
+          "entropy": 3.6853205074294237e-06
+        },
+        {
+          "step": 12,
+          "token": "9",
+          "token_id": 236819,
+          "projection": -2.4620275497436523,
+          "entropy": 2.0399159694761693e-08
+        },
+        {
+          "step": 13,
+          "token": ",",
+          "token_id": 236764,
+          "projection": -0.9658972024917603,
+          "entropy": 6.556601306328957e-08
+        },
+        {
+          "step": 14,
+          "token": "7",
+          "token_id": 236832,
+          "projection": -1.808280110359192,
+          "entropy": 1.3586179292701672e-08
+        }
+      ]
+    },
+    {
+      "prompt": "To be or not to be, that is the",
+      "expected_mode": "retrieve",
+      "output": "\"To be or not to be, that is the **question of life**.\"\n\nThi",
+      "mean_proj": -2.703944654464722,
+      "std_proj": 2.456230162588877,
+      "min_proj": -8.094298362731934,
+      "max_proj": 0.9774672985076904,
+      "mode_consistency": 0.88,
+      "trajectory": [
+        {
+          "step": 0,
+          "token": "\"",
+          "token_id": 236775,
+          "projection": -8.094298362731934,
+          "entropy": 0.15471914410591125
+        },
+        {
+          "step": 1,
+          "token": "To",
+          "token_id": 2021,
+          "projection": -6.9925665855407715,
+          "entropy": 1.2544094929456406e-10
+        },
+        {
+          "step": 2,
+          "token": " be",
+          "token_id": 577,
+          "projection": -3.6602487564086914,
+          "entropy": 1.4580475752944784e-15
+        },
+        {
+          "step": 3,
+          "token": " or",
+          "token_id": 653,
+          "projection": -0.5852326154708862,
+          "entropy": 9.932668021406243e-09
+        },
+        {
+          "step": 4,
+          "token": " not",
+          "token_id": 711,
+          "projection": 0.9774672985076904,
+          "entropy": 2.0822572832646102e-11
+        },
+        {
+          "step": 5,
+          "token": " to",
+          "token_id": 531,
+          "projection": -0.08762705326080322,
+          "entropy": 5.626051846618907e-10
+        },
+        {
+          "step": 6,
+          "token": " be",
+          "token_id": 577,
+          "projection": 0.05085313320159912,
+          "entropy": 1.7903260818297184e-10
+        },
+        {
+          "step": 7,
+          "token": ",",
+          "token_id": 236764,
+          "projection": -1.9215614795684814,
+          "entropy": 5.999310815241188e-05
+        },
+        {
+          "step": 8,
+          "token": " that",
+          "token_id": 600,
+          "projection": -5.254063129425049,
+          "entropy": 5.400846880831978e-09
+        },
+        {
+          "step": 9,
+          "token": " is",
+          "token_id": 563,
+          "projection": -2.273801803588867,
+          "entropy": 2.000684773406647e-08
+        },
+        {
+          "step": 10,
+          "token": " the",
+          "token_id": 506,
+          "projection": -5.994668483734131,
+          "entropy": 4.002932837465778e-05
+        },
+        {
+          "step": 11,
+          "token": " **",
+          "token_id": 5213,
+          "projection": -0.5261892080307007,
+          "entropy": 0.20193418860435486
+        },
+        {
+          "step": 12,
+          "token": "question",
+          "token_id": 15884,
+          "projection": -0.6956006288528442,
+          "entropy": 0.0013903763610869646
+        },
+        {
+          "step": 13,
+          "token": " of",
+          "token_id": 529,
+          "projection": -3.0941810607910156,
+          "entropy": 0.038733020424842834
+        },
+        {
+          "step": 14,
+          "token": " life",
+          "token_id": 1972,
+          "projection": -2.6608738899230957,
+          "entropy": 0.005697052925825119
+        }
+      ]
+    }
+  ]
+}
