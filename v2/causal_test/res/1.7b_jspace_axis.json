@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3-1.7B",
+ "layer": 21,
+ "lens_layers": [
+  0,
+  26
+ ],
+ "k": 25,
+ "cr_axis": {
+  "captured": 0.185080423951149,
+  "toward_positive": [
+   "）\n",
+   "!)\n",
+   "?)\n",
+   "!!)\n",
+   ")\n",
+   "”\n",
+   "？\n",
+   "())\n",
+   ")?\n",
+   "算",
+   "计算",
+   "?\")\n",
+   "盒",
+   ")!\n",
+   "[])\n"
+  ],
+  "toward_negative": [
+   " *\\",
+   " \"**",
+   " answer",
+   " _,",
+   " \"*",
+   " :\\",
+   " *\"",
+   " `,",
+   " answers",
+   " \".",
+   " *[",
+   " question",
+   " ....\n\n",
+   " _:",
+   " *,"
+  ]
+ },
+ "length_axis": {
+  "captured": 0.14851947128772736,
+  "toward_positive": [
+   "Physics",
+   "”?",
+   "数学",
+   "？\n",
+   "题",
+   "？”",
+   "Compute",
+   "?)\n",
+   "试题",
+   "?\n",
+   "逻辑",
+   "?”",
+   "?\")\n",
+   "Pressure",
+   "Logical"
+  ],
+  "toward_negative": [
+   " sovereignty",
+   " prompt",
+   " \"*",
+   " recht",
+   " words",
+   " -,",
+   " antiqu",
+   " azt",
+   " soci",
+   "采访时",
+   " \"_",
+   " disobed",
+   " depos",
+   " sectarian",
+   " rites"
+  ]
+ },
+ "random_null": {
+  "mean": 0.1998564636707306,
+  "p95": 0.3019201099872588,
+  "max": 0.3422378897666931
+ },
+ "cos_axis_len": 0.6403671503067017
+}

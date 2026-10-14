@@ -1,0 +1,89 @@
+{
+ "model": "Qwen/Qwen3-8B",
+ "layer": 18,
+ "lens_layers": [
+  0,
+  34
+ ],
+ "k": 25,
+ "cr_axis": {
+  "captured": 0.10284841060638428,
+  "toward_positive": [
+   "—\"",
+   "—we",
+   "—you",
+   ")—",
+   "数学",
+   "—they",
+   "—is",
+   "儿童",
+   "—that",
+   ",—",
+   "计算",
+   "算",
+   "—if",
+   "–and",
+   " Savings"
+  ],
+  "toward_negative": [
+   "  \n\n",
+   " \\\n\n",
+   " '\n\n",
+   " ....\n\n",
+   "'\n\n",
+   "`\n\n",
+   " \n\n",
+   "##\n\n",
+   "\n\n",
+   "\\<",
+   "  \n",
+   " ''\n\n",
+   "     \n",
+   "    \n\n",
+   " \\\n"
+  ]
+ },
+ "length_axis": {
+  "captured": 0.08304642885923386,
+  "toward_positive": [
+   ",—",
+   "–and",
+   "—you",
+   "—they",
+   "…)",
+   "…”",
+   "…but",
+   "…I",
+   "—is",
+   "数学",
+   "—we",
+   "…the",
+   "大家",
+   "…\n",
+   ",…"
+  ],
+  "toward_negative": [
+   " discourse",
+   " Muslim",
+   " Islamic",
+   " rhetoric",
+   " controversial",
+   " linguistic",
+   "\\<",
+   " publicly",
+   " histor",
+   " diplomatic",
+   " media",
+   " lingu",
+   " journalist",
+   " philosophical",
+   " '),"
+  ]
+ },
+ "random_null": {
+  "mean": 0.08484130024909974,
+  "p95": 0.10797623768448823,
+  "max": 0.1434013396501541
+ },
+ "cos_axis_len": 0.4593193531036377
+}

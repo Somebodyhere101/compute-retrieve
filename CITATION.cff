@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper (version 2)."
+title: "Compute-Retrieve Axis"
+authors:
+  - family-names: Ramdan
+    given-names: Sam
+repository-code: "https://github.com/Somebodyhere101/compute-retrieve"
+license: MIT
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.19444314
+    description: "All versions of the paper (concept DOI)"
+preferred-citation:
+  type: article
+  title: "The Compute–Retrieve Axis Separates Prompt Types, Not Processes: Original Results, Confounds, and a Preregistered Causal Test"
+  authors:
+    - family-names: Ramdan
+      given-names: Sam
+  year: 2026
+  doi: 10.5281/zenodo.23374358
+  publisher:
+    name: Zenodo
