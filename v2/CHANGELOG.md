@@ -1,5 +1,9 @@
 # Compute–Retrieve Axis: changelog
 
+## Version 2, statement update (25 October 2026; Zenodo v5)
+
+Only the statement on AI use and author contribution changed. It now says that the surviving records do not show who first proposed the axis, which parts of version 2 the AI system proposed and which the author did, and that the author did not independently check the code, analyses or technical claims. It no longer says that the AI system worked under the author's direction or that the author directed the work. No result, figure, table or file other than the paper and its source changed.
+
 ## Version 2 (October 2026; Zenodo v4)
 
 **New title:** *The Compute–Retrieve Axis Separates Prompt Types, Not Processes: Original Results, Confounds, and a Preregistered Causal Test* (was *Compute-Retrieve Axis: Detecting Reasoning Mode from Transformer Hidden States*).
