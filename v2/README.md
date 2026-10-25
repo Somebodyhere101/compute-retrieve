@@ -1,6 +1,6 @@
 # Version 2: preregistered causal test and revision
 
-Paper: [`paper/compute-retrieve-v2.pdf`](paper/compute-retrieve-v2.pdf) · Zenodo v4: [doi:10.5281/zenodo.23374358](https://doi.org/10.5281/zenodo.23374358) · Changes from version 1: [`CHANGELOG.md`](CHANGELOG.md)
+Paper: [`paper/compute-retrieve-v2.pdf`](paper/compute-retrieve-v2.pdf) · Zenodo v4: [doi:10.5281/zenodo.23646706](https://doi.org/10.5281/zenodo.23646706) · Changes from version 1: [`CHANGELOG.md`](CHANGELOG.md)
 
 | folder | contents |
 |---|---|

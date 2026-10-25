@@ -1,6 +1,6 @@
 # Compute-Retrieve Axis
 
-> **Read this first (October 2026).** [Version 2 of the paper](https://doi.org/10.5281/zenodo.23374358) revises its central claim.
+> **Read this first (October 2026).** [Version 2 of the paper](https://doi.org/10.5281/zenodo.23646706) revises its central claim.
 >
 > The CR axis reliably separates *prompt types* (word problems vs. factual questions; AUC ≥ 0.94 in every model tested). It does **not** detect whether a model is computing or retrieving:
 > - **Matched format:** under exact format and length matching, it tracks context vocabulary more than retrievability ([Ramdan 2026b](https://doi.org/10.5281/zenodo.23318679)).
@@ -118,7 +118,7 @@ v2/                Version 2: paper, preregistrations, causal-test code and resu
   author={Ramdan, Sam},
   year={2026},
   howpublished={Zenodo, version 2 (v4)},
-  doi={10.5281/zenodo.23374358}
+  doi={10.5281/zenodo.23646706}
 }
 
 @misc{ramdan2026craxis,
